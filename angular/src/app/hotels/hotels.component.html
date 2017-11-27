@@ -1,0 +1,34 @@
+<h2>Currently registered hotels at Sun_Travels</h2>
+<div class="hotelList" style="text-align: left">
+  <li *ngFor="let hotel of hotelList">
+    <br>
+    <table>
+      <tr>
+        <td style="text-align:left">Hotel ID</td>
+        <td> : </td>
+        <td style="text-align: left">{{hotel.hotelID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Hotel Name</td>
+        <td> : </td>
+        <td style="text-align: left">{{hotel.hotelName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Phone Number</td>
+        <td> : </td>
+        <td style="text-align: left">{{hotel.hotelPhoneNumber}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Country ID</td>
+        <td> : </td>
+        <td style="text-align: left">{{hotel.countryID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">City ID</td>
+        <td> : </td>
+        <td style="text-align: left">{{hotel.cityID}}</td>
+      </tr>
+    </table>
+    <hr>
+  </li>
+</div>
