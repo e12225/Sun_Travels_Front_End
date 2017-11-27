@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
 import {Hotel} from '../entities/hotel';
-import {SearchReservationResponse} from '../responses/search-reservation-response';
+import {SearchReservationRequest} from '../requests/search-reservation-request';
 
 @Injectable()
 export class SunTravelsServicesService {
@@ -19,9 +19,7 @@ export class SunTravelsServicesService {
 
   // TODO: Continue from here
 
-  getAvailableReservations(): Observable<SearchReservationResponse[]> {
-    return this.httpClient.get<SearchReservationResponse[]>(this.searchReservationsUrl);
+  getAvailableReservations(request: SearchReservationRequest): Observable<SearchReservationRequest> {
+    return this.httpClient.post<SearchReservationRequest>(this.searchReservationsUrl, request);
   }
-
-
 }

@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {SearchReservationResponse} from '../responses/search-reservation-response';
+import {SunTravelsServicesService} from '../services/sun-travels-services.service';
+import {SearchReservationRequest} from '../requests/search-reservation-request';
 
 @Component({
   selector: 'app-search',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  constructor() { }
+  searchReservationRequest: SearchReservationRequest;
+  searchReservationResponse: SearchReservationResponse;
 
-  ngOnInit() {
+  constructor(private service: SunTravelsServicesService) {
   }
 
+  ngOnInit() {
+    // return this.searchReservations(this.searchReservationRequest);
+  }
+
+  // searchReservations(request: SearchReservationRequest): SearchReservationResponse {
+  //   return this.service.getAvailableReservations({request} as SearchReservationRequest).subscribe(
+  //     request => {}
+  //   );
+  //   });
 }
+

@@ -11,7 +11,7 @@ export class HotelsComponent implements OnInit {
 
   hotelList: Hotel[];
 
-  constructor(private hotelService: SunTravelsServicesService) {
+  constructor(private service: SunTravelsServicesService) {
   }
 
   ngOnInit() {
@@ -19,7 +19,7 @@ export class HotelsComponent implements OnInit {
   }
 
   getHotelList(): void {
-    this.hotelService.getHotelList().subscribe(hotelList => {
+    this.service.getHotelList().subscribe(hotelList => {
       this.hotelList = hotelList;
     });
   }
