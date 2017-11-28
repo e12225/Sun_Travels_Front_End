@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {Hotel} from '../entities/hotel';
 import {SunTravelsServicesService} from '../services/sun-travels-services.service';
+import {HotelComponent} from '../hotel/hotel.component';
 
 @Component({
   selector: 'app-hotels',
@@ -9,7 +9,7 @@ import {SunTravelsServicesService} from '../services/sun-travels-services.servic
 })
 export class HotelsComponent implements OnInit {
 
-  hotelList: Hotel[];
+  hotelList: HotelComponent[];
 
   constructor(private service: SunTravelsServicesService) {
   }

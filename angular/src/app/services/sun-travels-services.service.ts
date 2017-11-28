@@ -1,14 +1,15 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
-import {Hotel} from '../entities/hotel';
 import {SearchReservationRequest} from '../requests/search-reservation-request';
+import {Hotel} from '../entities/hotel';
+import {ReservationComposer} from '../entities/reservation-composer';
 
 @Injectable()
 export class SunTravelsServicesService {
 
-  private hotelListUrl = 'http://localhost:9999/hotels/list';
   private searchReservationsUrl = 'http://localhost:9999/reservations/search';
+  private hotelListUrl = 'http://localhost:9999/hotels/list';
 
   constructor(private httpClient: HttpClient) {
   }
@@ -17,9 +18,8 @@ export class SunTravelsServicesService {
     return this.httpClient.get<Hotel[]>(this.hotelListUrl);
   }
 
-  // TODO: Continue from here
-
-  getAvailableReservations(request: SearchReservationRequest): Observable<SearchReservationRequest> {
-    return this.httpClient.post<SearchReservationRequest>(this.searchReservationsUrl, request);
+  getAvailableReservations(request: SearchReservationRequest): Observable<ReservationComposer[]> {
+    // this should be edited according to below method :D !!!
+    return this.httpClient.post<ReservationComposer[]>(this.searchReservationsUrl, request);
   }
 }

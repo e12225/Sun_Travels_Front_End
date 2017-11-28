@@ -12,6 +12,10 @@ import { RoomTypesComponent } from './room-types/room-types.component';
 import {AddContractComponent} from './add-contract/add-contract.component';
 import {ViewContractDetailsComponent} from './view-contract-details/view-contract-details.component';
 import { HomeComponent } from './home/home.component';
+import { SearchReservationResultsComponent } from './search-reservation-results/search-reservation-results.component';
+import { SearchReservationRequestComponent } from './search-reservation-request/search-reservation-request.component';
+import {FormsModule} from '@angular/forms';
+import { HotelComponent } from './hotel/hotel.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -19,7 +23,8 @@ const appRoutes: Routes = [
   {path: 'roomTypes', component: RoomTypesComponent},
   {path: 'searchReservations', component: SearchComponent},
   {path: 'newContract', component: AddContractComponent},
-  {path: 'contractDetails', component: ViewContractDetailsComponent}
+  {path: 'contractDetails', component: ViewContractDetailsComponent},
+  {path: 'searchReservationResults', component: SearchReservationResultsComponent}
 ];
 
 @NgModule({
@@ -30,12 +35,16 @@ const appRoutes: Routes = [
     RoomTypesComponent,
     AddContractComponent,
     ViewContractDetailsComponent,
-    HomeComponent
+    HomeComponent,
+    SearchReservationResultsComponent,
+    SearchReservationRequestComponent,
+    HotelComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
   ],
   providers: [SunTravelsServicesService],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 export class ReservationComposer {
-  hotelName: string;
-  roomType: string;
-  markedUpPrice: number;
-  roomsAvailability: string;
+  r_hotelName: string;
+  r_roomType: string;
+  r_markedUpPrice: number;
+  r_roomsAvailability: string;
 }

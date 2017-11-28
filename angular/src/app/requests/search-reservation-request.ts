@@ -1,7 +1,6 @@
 export class SearchReservationRequest {
-  checkInDate: string;
+  checkInDate: Date;
   numberOfNights: number;
   numberOfRooms: number;
-  noOfAdultsPerRoom: number;
-//  later get this as an array
+  noOfAdultsPerRoom: number[];
 }
