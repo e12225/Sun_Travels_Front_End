@@ -19,9 +19,8 @@ export class HotelsComponent implements OnInit {
   }
 
   getHotelList(): void {
-    this.service.getHotelList().subscribe(hotelList => {
+    this.service.getHotelListService().subscribe(hotelList => {
       this.hotelList = hotelList;
     });
   }
-
 }

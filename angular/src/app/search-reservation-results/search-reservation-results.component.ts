@@ -27,7 +27,7 @@ export class SearchReservationResultsComponent implements OnInit {
     this.request.numberOfRooms = rooms;
     this.request.noOfAdultsPerRoom = adults;
 
-    this.service.getAvailableReservations(this.request).subscribe(reservationList => {
+    this.service.getAvailableReservationsService(this.request).subscribe(reservationList => {
       this.availableReservationList = reservationList;
     });
   }
