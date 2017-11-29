@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
-import {SearchReservationRequest} from '../requests/search-reservation-request';
-import {ReservationComposer} from '../entities/reservation-composer';
-import {HotelComponent} from '../hotel/hotel.component';
+import {HotelComponent} from '../hotels/hotel/hotel.component';
+import {SearchComponent} from '../available-reservations/search/search.component';
+import {ResultComposerComponent} from '../available-reservations/result-composer/result-composer.component';
 
 @Injectable()
 export class SunTravelsServicesService {
@@ -19,12 +19,12 @@ export class SunTravelsServicesService {
     return this.httpClient.get<HotelComponent[]>(this.hotelListUrl);
   }
 
-  addHotelService(hotel: HotelComponent): Observable<HotelComponent> {
-    return this.httpClient.post<HotelComponent>(this.addHotelUrl, hotel);
+  addHotelService(hotel: HotelComponent): Observable<any> {
+    console.log(hotel);
+    return this.httpClient.post(this.addHotelUrl, hotel);
   }
 
-  getAvailableReservationsService(request: SearchReservationRequest): Observable<ReservationComposer[]> {
-    // this should be edited according to below method :D !!!
-    return this.httpClient.post<ReservationComposer[]>(this.searchReservationsUrl, request);
+  getAvailableReservationsService(request: SearchComponent): Observable<ResultComposerComponent[]> {
+    return this.httpClient.post<ResultComposerComponent[]>(this.searchReservationsUrl, request);
   }
 }
