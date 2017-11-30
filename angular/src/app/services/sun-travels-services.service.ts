@@ -1,9 +1,9 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
-import {HotelComponent} from '../hotels/hotel/hotel.component';
-import {SearchComponent} from '../available-reservations/search/search.component';
-import {ResultComposerComponent} from '../available-reservations/result-composer/result-composer.component';
+import {AvailableReservationModel} from '../models/available-reservation.model';
+import {HotelModel} from '../models/hotel.model';
+import {ReservationSearchModel} from '../models/reservation-search.model';
 
 @Injectable()
 export class SunTravelsServicesService {
@@ -15,16 +15,16 @@ export class SunTravelsServicesService {
   constructor(private httpClient: HttpClient) {
   }
 
-  getHotelListService(): Observable<HotelComponent[]> {
-    return this.httpClient.get<HotelComponent[]>(this.hotelListUrl);
+  getHotelListService(): Observable<HotelModel[]> {
+    return this.httpClient.get<HotelModel[]>(this.hotelListUrl);
   }
 
-  addHotelService(hotel: HotelComponent): Observable<any> {
+  addHotelService(hotel: HotelModel): Observable<any> {
     console.log(hotel);
     return this.httpClient.post(this.addHotelUrl, hotel);
   }
 
-  getAvailableReservationsService(request: SearchComponent): Observable<ResultComposerComponent[]> {
-    return this.httpClient.post<ResultComposerComponent[]>(this.searchReservationsUrl, request);
+  getAvailableReservationsService(request: ReservationSearchModel): Observable<AvailableReservationModel[]> {
+    return this.httpClient.post<AvailableReservationModel[]>(this.searchReservationsUrl, request);
   }
 }
