@@ -23,5 +23,4 @@ export class HotelListComponent implements OnInit {
       this.hotelList = hotelList;
     });
   }
-
 }

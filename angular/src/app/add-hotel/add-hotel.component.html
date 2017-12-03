@@ -4,23 +4,24 @@
     <table>
       <tr>
         <td style="text-align:left">Hotel Name</td>
-        <td> : </td>
+        <td> :</td>
         <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="hotel.hotelName" name="h_name"></td>
       </tr>
       <tr>
         <td style="text-align:left">Phone Number</td>
-        <td> : </td>
+        <td> :</td>
         <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="hotel.hotelPhoneNumber" name="h_phone_no"></td>
       </tr>
       <tr>
-        <td style="text-align:left">Country ID</td>
-        <td> : </td>
-        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="hotel.countryID" name="h_country"></td>
+        <td style="text-align:left">Country Name</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="hotel.countryName" name="h_country">
+        </td>
       </tr>
       <tr>
-        <td style="text-align:left">City ID</td>
-        <td> : </td>
-        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="hotel.cityID" name="h_city"></td>
+        <td style="text-align:left">City Name</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="hotel.cityName" name="h_city"></td>
       </tr>
       <tr>
         <td style="text-align: left">
@@ -30,3 +31,87 @@
     </table>
   </form>
 </div>
+
+<hr>
+
+<!--<div class="insertedHotel" style="text-align: center">-->
+  <!--<li *ngFor="let res of response">-->
+    <!--<table>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">Hotel Name</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.insertingStatus}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">Hotel ID</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.entity.hotelID}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">Hotel Name</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.entity.hotelName}} USD</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">Hotel Phone Number</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.entity.hotelPhoneNumber}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">Country ID</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.entity.countryID}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">City ID</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.entity.cityID}}</td>-->
+      <!--</tr>-->
+      <!--<tr>-->
+        <!--<td style="text-align:left">Message</td>-->
+        <!--<td> :</td>-->
+        <!--<td style="text-align: left">{{res.message}}</td>-->
+      <!--</tr>-->
+    <!--</table>-->
+  <!--</li>-->
+<!--</div>-->
+
+<!--<div>-->
+  <!--<table>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">Hotel Name</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.insertingStatus}}</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">Hotel ID</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.entity.hotelID}}</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">Hotel Name</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.entity.hotelName}} USD</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">Hotel Phone Number</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.entity.hotelPhoneNumber}}</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">Country ID</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.entity.countryID}}</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">City ID</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.entity.cityID}}</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--&lt;!&ndash;<td style="text-align:left">Message</td>&ndash;&gt;-->
+      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
+      <!--<td style="text-align: left">{{response.message}}</td>-->
+    <!--</tr>-->
+  <!--</table>-->
+<!--</div>-->

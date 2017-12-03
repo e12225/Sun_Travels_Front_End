@@ -2,14 +2,14 @@ export class HotelModel {
   hotelID: number;
   hotelName: string;
   hotelPhoneNumber: number;
-  countryID: number;
-  cityID: number;
+  countryName: string;
+  cityName: string;
 
-  constructor(Id: number, name: string, phoneNumber: number, countryId: number, cityId: number) {
+  constructor(Id: number, name: string, phoneNumber: number, countryName: string, cityName: string) {
     this.hotelID = Id;
     this.hotelName = name;
     this.hotelPhoneNumber = phoneNumber;
-    this.countryID = countryId;
-    this.cityID = cityId;
+    this.countryName = countryName;
+    this.cityName = cityName;
   }
 }
