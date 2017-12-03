@@ -4,19 +4,50 @@
     <ul>
       <li><a class="active" routerLink="">Home</a></li>
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Hotels</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewHotel">Add New Hotel</a>
-          <a routerLink="/hotelList">View Hotel List</a>
-        </div>
-      </li>
-      <li><a class="active" routerLink="/roomTypes">Room Types</a> </li>
-      <li><a class="active" routerLink="/searchReservations">Search Reservations</a></li>
-      <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Contracts</a>
         <div class="dropdown-content">
           <a routerLink="/newContract">Add New Contract</a>
           <a routerLink="/contractDetails">View Contract Details</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Hotels</a>
+        <div class="dropdown-content">
+          <a routerLink="/addNewHotel">Add New Hotel</a>
+          <a routerLink="/hotelList">View Hotel List</a>
+          <a routerLink="/hotelsByNameOrAlias">Search Hotels</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Room Types</a>
+        <div class="dropdown-content">
+          <a routerLink="/addNewRoomType">Add New Room Type</a>
+          <a routerLink="/roomTypeList">View Room Type List</a>
+          <a routerLink="/roomTypeByNameOrAlias">Search Room Types</a>
+        </div>
+      <li><a class="active" routerLink="/searchReservations">Search Reservations</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Countries</a>
+        <div class="dropdown-content">
+          <a routerLink="/addNewCountry">Add New Country</a>
+          <a routerLink="/countryList">View Country List</a>
+          <a routerLink="/countriesByNameOrAlias">Search Countries</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Cities</a>
+        <div class="dropdown-content">
+          <a routerLink="/addNewCity">Add New City</a>
+          <a routerLink="/cityList">View City List</a>
+          <a routerLink="/citiesByNameOrAlias">Search Cities</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Customers</a>
+        <div class="dropdown-content">
+          <a routerLink="/addNewCustomer">Add New Customer</a>
+          <a routerLink="/customerList">View Customer List</a>
+          <a routerLink="/customersByNameOrAlias">Search Customers</a>
         </div>
       </li>
     </ul>
