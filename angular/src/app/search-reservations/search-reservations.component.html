@@ -18,9 +18,14 @@
         <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="reservationSearch.numberOfRooms" name="s_rooms"></td>
       </tr>
       <tr>
-        <td style="text-align:left">Number of Adults per each Room</td>
+        <td style="text-align:left">Total Number of Adults</td>
         <td> :</td>
-        <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="reservationSearch.noOfAdultsPerRoom" name="s_adults" placeholder="eg: 2,3,3"></td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="reservationSearch.totalAdults" name="s_adults"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Maximum Number of Adults per Room</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="reservationSearch.requestedMaxAdultsPerRoom" name="s_max_adults"></td>
       </tr>
       <tr>
         <td style="text-align: left">
@@ -49,7 +54,7 @@
       <tr>
         <td style="text-align:left">Marked-up Price</td>
         <td> :</td>
-        <td style="text-align: left">{{result.markedUpPrice}}</td>
+        <td style="text-align: left">{{result.markedUpPrice}} USD</td>
       </tr>
       <tr>
         <td style="text-align:left">Availability of Rooms</td>

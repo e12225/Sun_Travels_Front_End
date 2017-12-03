@@ -16,12 +16,11 @@ export class SearchReservationsComponent implements OnInit {
   checkInDate: Date;
   numberOfNights: number;
   numberOfRooms: number;
-  // noOfAdultsPerRoom: number[]; //
-  // noOfAdultsPerRoom: number;
-  noOfAdultsPerRoom: string;
+  totalAdults: number;
+  requestedMaxAdultsPerRoom: number;
 
   constructor(private service: SunTravelsServicesService) {
-    this.reservationSearch = new ReservationSearchModel(this.checkInDate, this.numberOfNights, this.numberOfRooms, this.noOfAdultsPerRoom);
+    this.reservationSearch = new ReservationSearchModel(this.checkInDate, this.numberOfNights, this.numberOfRooms, this.totalAdults, this.requestedMaxAdultsPerRoom);
   }
 
   ngOnInit() {

@@ -4,6 +4,7 @@ import {Observable} from 'rxjs/Observable';
 import {AvailableReservationModel} from '../models/available-reservation.model';
 import {HotelModel} from '../models/hotel.model';
 import {ReservationSearchModel} from '../models/reservation-search.model';
+import {HotelListElementModel} from "../models/hotel-list-element.model";
 
 @Injectable()
 export class SunTravelsServicesService {
@@ -15,8 +16,8 @@ export class SunTravelsServicesService {
   constructor(private httpClient: HttpClient) {
   }
 
-  getHotelListService(): Observable<HotelModel[]> {
-    return this.httpClient.get<HotelModel[]>(this.hotelListUrl);
+  getHotelListService(): Observable<HotelListElementModel[]> {
+    return this.httpClient.get<HotelListElementModel[]>(this.hotelListUrl);
   }
 
   addHotelService(hotel: HotelModel): Observable<any> {

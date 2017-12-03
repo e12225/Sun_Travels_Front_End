@@ -5,7 +5,7 @@ export class HotelModel {
   countryID: number;
   cityID: number;
 
-  constructor(Id: number, name: string, phoneNumber: number, countryId: number, cityId) {
+  constructor(Id: number, name: string, phoneNumber: number, countryId: number, cityId: number) {
     this.hotelID = Id;
     this.hotelName = name;
     this.hotelPhoneNumber = phoneNumber;

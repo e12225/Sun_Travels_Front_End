@@ -2,14 +2,14 @@ export class ReservationSearchModel {
   checkInDate: Date;
   numberOfNights: number;
   numberOfRooms: number;
-  // noOfAdultsPerRoom: number[];
-  // noOfAdultsPerRoom: number;
-  noOfAdultsPerRoom: string;
+  totalAdults: number;
+  requestedMaxAdultsPerRoom: number;
 
-  constructor(checkIn: Date, nights: number, rooms: number, adults: string) {
+  constructor(checkIn: Date, nights: number, rooms: number, adults: number, maxAdultsPerRm: number) {
     this.checkInDate = checkIn;
     this.numberOfNights = nights;
     this.numberOfRooms = rooms;
-    this.noOfAdultsPerRoom = adults;
+    this.totalAdults = adults;
+    this.requestedMaxAdultsPerRoom = maxAdultsPerRm;
   }
 }
