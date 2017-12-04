@@ -10,7 +10,8 @@
       <tr>
         <td style="text-align:left">Phone Number</td>
         <td> :</td>
-        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="hotel.hotelPhoneNumber" name="h_phone_no"></td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="hotel.hotelPhoneNumber"
+                                           name="h_phone_no"></td>
       </tr>
       <tr>
         <td style="text-align:left">Country Name</td>
@@ -34,84 +35,57 @@
 
 <hr>
 
-<!--<div class="insertedHotel" style="text-align: center">-->
-  <!--<li *ngFor="let res of response">-->
-    <!--<table>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">Hotel Name</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.insertingStatus}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">Hotel ID</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.entity.hotelID}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">Hotel Name</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.entity.hotelName}} USD</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">Hotel Phone Number</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.entity.hotelPhoneNumber}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">Country ID</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.entity.countryID}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">City ID</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.entity.cityID}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align:left">Message</td>-->
-        <!--<td> :</td>-->
-        <!--<td style="text-align: left">{{res.message}}</td>-->
-      <!--</tr>-->
-    <!--</table>-->
-  <!--</li>-->
-<!--</div>-->
+<div class="insertedHotel" *ngIf="h_response.insertingStatus == true"
+     style="text-align: left">
+  <h3>Response</h3>
+  <table>
+    <tr>
+      <td style="text-align: left">Inserting Status</td>
+      <td> :</td>
+      <td>{{h_response.insertingStatus}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hotel ID</td>
+      <td> :</td>
+      <td>{{h_response.entity.hotelID}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hotel Name</td>
+      <td> :</td>
+      <td>{{h_response.entity.hotelName}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hotel Phone Number</td>
+      <td> :</td>
+      <td>{{h_response.entity.hotelPhoneNumber}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Country ID</td>
+      <td> :</td>
+      <td>{{h_response.entity.countryID}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">City ID</td>
+      <td> :</td>
+      <td>{{h_response.entity.cityID}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Message</td>
+      <td> :</td>
+      <td>{{h_response.message}}</td>
+    </tr>
+  </table>
 
-<!--<div>-->
-  <!--<table>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">Hotel Name</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.insertingStatus}}</td>-->
-    <!--</tr>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">Hotel ID</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.entity.hotelID}}</td>-->
-    <!--</tr>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">Hotel Name</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.entity.hotelName}} USD</td>-->
-    <!--</tr>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">Hotel Phone Number</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.entity.hotelPhoneNumber}}</td>-->
-    <!--</tr>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">Country ID</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.entity.countryID}}</td>-->
-    <!--</tr>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">City ID</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.entity.cityID}}</td>-->
-    <!--</tr>-->
-    <!--<tr>-->
-      <!--&lt;!&ndash;<td style="text-align:left">Message</td>&ndash;&gt;-->
-      <!--&lt;!&ndash;<td> :</td>&ndash;&gt;-->
-      <!--<td style="text-align: left">{{response.message}}</td>-->
-    <!--</tr>-->
-  <!--</table>-->
-<!--</div>-->
+  <div *ngIf="h_response.insertingStatus == false" style="text-align: left" ng>
+    <h3>Response</h3>
+    <table>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{h_response.message}}</td>
+      </tr>
+    </table>
+  </div>
+
+
+

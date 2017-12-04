@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {SunTravelsServicesService} from '../services/sun-travels-services.service';
 import {HotelModel} from '../models/hotel.model';
 import {AddHotelResponseModel} from '../models/add-hotel-response.model';
+import {InsertedHotelInDbModel} from '../models/inserted-hotel-in-db.model';
 
 @Component({
   selector: 'app-hotel',
@@ -10,7 +11,7 @@ import {AddHotelResponseModel} from '../models/add-hotel-response.model';
 })
 export class AddHotelComponent implements OnInit {
 
-  response: AddHotelResponseModel;
+  h_response: AddHotelResponseModel;
   hotel: HotelModel;
 
   hotelID: number;
@@ -24,11 +25,12 @@ export class AddHotelComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.h_response = new AddHotelResponseModel(null, new InsertedHotelInDbModel(null, null, null, null, null), null);
   }
 
   addHotel(): void {
     this.service.addHotelService(this.hotel).subscribe(response => {
-      this.response = response;
+      this.h_response = response;
     });
   }
 }
