@@ -2,36 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac593efa-275c-4823-bbf8-764086d8376f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/contracts.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/contracts.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/contracts.component.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/contracts.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-type/room-type.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-type/room-type.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-type/room-type.component.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-type/room-type.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-types.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-types.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-types.component.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/room-types/room-types.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/models/hotel-list-element.model.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.html" afterPath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html" afterPath="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html" afterPath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/app.component.html" afterPath="$PROJECT_DIR$/angular/src/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/app.module.ts" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.html" afterPath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.html" afterPath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.html" afterPath="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts" afterPath="$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" afterPath="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/add-contract/add-contract.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/add-contract/add-contract.component.html" afterPath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/add-contract/add-contract.component.spec.ts" afterPath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/src/app/contracts/add-contract/add-contract.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,11 +32,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add-contract-details.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts">
+      <file leaf-file-name="hotels-by-alias.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sun-travels-services.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -58,21 +57,9 @@
       <file leaf-file-name="hotel.model.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular/src/app/models/hotel.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-contract.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,17 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/angular/src/app/search-reservation-results/search-reservation-results.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/search-reservation-request/search-reservation-request.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/contracts-edit/contracts-edit.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/entities/contract.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/contracts-edit/contracts-edit.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotel/hotel.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/entities/hotel.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/entities/reservation-composer.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/hotels.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/hotel-list/hotel-list.component.css" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/hotel-list/hotel-list.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/hotels/hotels.component.css" />
         <option value="$PROJECT_DIR$/angular/src/app/hotels/hotels.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/search/search.component.html" />
@@ -137,15 +113,26 @@
         <option value="$PROJECT_DIR$/angular/src/app/models/inserted-hotel-in-db.model.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/models/add-contract-respone.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/models/add-contract-details-response.model.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/models/inserted-contract-details-in-db.model.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" />
       </list>
     </option>
   </component>
@@ -158,11 +145,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/angular/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-66" />
-    <option name="y" value="153" />
-    <option name="width" value="1852" />
-    <option name="height" value="880" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="954" />
+    <option name="width" value="985" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,8 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,31 +197,7 @@
               <item name="angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="add-contract" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sun_Travels_Front_End" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="add-contract-details" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sun_Travels_Front_End" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="add-hotel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sun_Travels_Front_End" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="hotels-by-alias" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +211,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,23 +260,26 @@
       <workItem from="1512013535960" duration="19421000" />
       <workItem from="1512042161902" duration="4000" />
       <workItem from="1512363158948" duration="19494000" />
+      <workItem from="1512444826676" duration="2997000" />
+      <workItem from="1512553357001" duration="11399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102066000" />
+    <option name="totallyTimeSpent" value="116462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-66" y="153" width="1852" height="880" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17254686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29301074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23804347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,32 +367,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular/src/app/entities/hotel.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservation-request/search-reservation-request.component.html" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservation-request/search-reservation-request.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservation-results/search-reservation-results.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/requests/search-reservation-request.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/entities/reservation-composer.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/node_modules/@angular/router/esm2015/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="4900" column="23" lean-forward="false" selection-start-line="4900" selection-start-column="23" selection-end-line="4900" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/available-reservations/results/results.component.html" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/available-reservations/results/results.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/available-reservations/result-composer/result-composer.component.css" />
     <entry file="file://$PROJECT_DIR$/angular/src/app/available-reservations/result-composer/result-composer.component.html" />
     <entry file="file://$PROJECT_DIR$/angular/src/app/available-reservations/result-composer/result-composer.component.ts" />
     <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -445,20 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -470,44 +398,10 @@
     <entry file="file://$PROJECT_DIR$/angular/src/app/hotels/hotels.component.ts" />
     <entry file="file://$PROJECT_DIR$/angular/src/app/hotels/hotels.component.html" />
     <entry file="file://$PROJECT_DIR$/angular/src/app/hotels/hotels.component.css" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/available-reservation.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="88" lean-forward="true" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/models/reservation-search.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,33 +409,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contracts/contracts.component.html">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contracts/contracts.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular/src/app/room-types/room-types.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular/src/app/room-type/room-type.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/hotel-list-element.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/models/contract.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/add-hotel-response.model.ts">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,75 +459,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/inserted-contract-in-db.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/models/add-contract-response.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/add-hotel-response.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="115" lean-forward="true" selection-start-line="24" selection-start-column="115" selection-end-line="24" selection-end-column="115" />
+        <state relative-caret-position="34">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/add-contract-details-response.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#li#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.ts">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/available-reservation.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.ts">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="640">
+          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#6;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/inserted-contract-details-in-db.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/room-types/room-types.component.ts">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/inserted-contract-in-db.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/models/hotel.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -629,71 +671,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/room-type/room-type.component.ts">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="70" lean-forward="true" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/hotel.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -1,1 +1,133 @@
-<div class="addContractDetails"></div>
+<div class="addNewContractDetails" style="text-align: left">
+  <h3>Add new contract details entry to Sun Travels</h3>
+  <form>
+    <table>
+      <tr>
+        <td style="text-align:left">Contract ID</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.contractID"
+                                           name="cd_cId"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Valid From</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="date" class="txt" [(ngModel)]="contractDetails.validFrom"
+                                           name="cd_from"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Valid To</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="date" class="txt" [(ngModel)]="contractDetails.validTo" name="cd_to">
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Room Type</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="contractDetails.roomType"
+                                           name="cd_rmType"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Number of Rooms</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.numberOfRooms"
+                                           name="cd_rooms"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Maximum Adults per Room</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.maxAdults"
+                                           name="cd_adults"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Price</td>
+        <td> :</td>
+        <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.price"
+                                           name="cd_price"> USD</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">
+          <input type="submit" class="btn" (click)="addContractDetails()" value="Add">
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+
+<hr>
+
+<div class="insertedContractDetails" *ngIf="cd_response.insertingStatus == true"
+     style="text-align: left">
+  <h3>Response</h3>
+  <table>
+    <tr>
+      <td style="text-align: left">Inserting Status</td>
+      <td> :</td>
+      <td>{{cd_response.insertingStatus}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Contract Details ID</td>
+      <td> :</td>
+      <td>{{cd_response.entity.contractDetailsID}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Contract ID</td>
+      <td> :</td>
+      <td>{{cd_response.entity.contractID}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Valid From</td>
+      <td> :</td>
+      <td>{{cd_response.entity.validFrom}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Valid To</td>
+      <td> :</td>
+      <td>{{cd_response.entity.validTo}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Room Type ID</td>
+      <td> :</td>
+      <td>{{cd_response.entity.roomTypeID}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Number of Rooms</td>
+      <td> :</td>
+      <td>{{cd_response.entity.numberOfRooms}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Maximum Adults per Room</td>
+      <td> :</td>
+      <td>{{cd_response.entity.maxAdults}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Price</td>
+      <td> :</td>
+      <td>{{cd_response.entity.price}} USD</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Message</td>
+      <td> :</td>
+      <td>{{cd_response.message}}</td>
+    </tr>
+  </table>
+</div>
+
+<div class="insertedContractDetails" *ngIf="cd_response.insertingStatus == false" style="text-align: left" ng>
+  <h3>Response</h3>
+  <table>
+    <tr>
+      <td style="text-align: left">Inserting Status</td>
+      <td> :</td>
+      <td>{{cd_response.insertingStatus}}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Message</td>
+      <td> :</td>
+      <td>{{cd_response.message}}</td>
+    </tr>
+  </table>
+</div>
+
+
+
+

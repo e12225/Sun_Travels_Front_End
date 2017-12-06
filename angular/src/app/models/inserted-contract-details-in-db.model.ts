@@ -1,19 +1,20 @@
-export class ContractDetailsModel {
+export class InsertedContractDetailsInDbModel {
+
   contractDetailsID: number;
   contractID: number;
   validFrom: Date;
   validTo: Date;
-  roomType: string;
+  roomTypeID: number;
   numberOfRooms: number;
   maxAdults: number;
   price: number;
 
-  constructor(Id: number, ctrID: number, from: Date, to: Date, rmType: string, rooms: number, adults: number, price: number) {
+  constructor(Id: number, cId: number, from: Date, to: Date, rmType: number, rooms: number, adults: number, price: number) {
     this.contractDetailsID = Id;
-    this.contractID = ctrID;
+    this.contractID = cId;
     this.validFrom = from;
     this.validTo = to;
-    this.roomType = rmType;
+    this.roomTypeID = rmType;
     this.numberOfRooms = rooms;
     this.maxAdults = adults;
     this.price = price;

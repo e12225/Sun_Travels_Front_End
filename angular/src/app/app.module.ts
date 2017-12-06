@@ -17,6 +17,7 @@ import { ContractDetailsListComponent } from './contract-details-list/contract-d
 import { ContractListComponent } from './contract-list/contract-list.component';
 import { AddRoomTypeComponent } from './add-room-type/add-room-type.component';
 import { RoomTypeListComponent } from './room-type-list/room-type-list.component';
+import { HotelsByAliasComponent } from './hotels-by-alias/hotels-by-alias.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
   {path: 'addNewContract', component: AddContractComponent},
   {path: 'contractList', component: ContractListComponent},
   {path: 'contractDetailsList', component: ContractDetailsListComponent},
-  {path: 'addContractDetails', component: AddContractDetailsComponent}
+  {path: 'addContractDetails', component: AddContractDetailsComponent},
+  {path: 'hotelsByAlias', component: HotelsByAliasComponent}
 ];
 
 @NgModule({
@@ -43,7 +45,8 @@ const appRoutes: Routes = [
     ContractDetailsListComponent,
     ContractListComponent,
     AddRoomTypeComponent,
-    RoomTypeListComponent
+    RoomTypeListComponent,
+    HotelsByAliasComponent
   ],
   imports: [
     BrowserModule,
