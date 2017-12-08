@@ -1,0 +1,9 @@
+li{
+  list-style-type: none;
+}
+
+.rtList
+{
+  max-height: 650px;
+  overflow-y: scroll;
+}

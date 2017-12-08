@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {HotelModel} from '../models/hotel.model';
+import {SunTravelsServicesService} from '../services/sun-travels-services.service';
 
 @Component({
   selector: 'app-hotels-by-alias',
@@ -8,12 +9,18 @@ import {HotelModel} from '../models/hotel.model';
 })
 export class HotelsByAliasComponent implements OnInit {
 
-  hList: HotelModel[];
+  hotelList: HotelModel[];
+  alias: string;
 
-  constructor() {
+  constructor(private service: SunTravelsServicesService) {
   }
 
   ngOnInit() {
   }
 
+  getHotelsByAlias(): void {
+    this.service.getHotelsByAliasService(this.alias).subscribe(hotelList => {
+      this.hotelList = hotelList;
+    });
+  }
 }

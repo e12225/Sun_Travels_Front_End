@@ -1,3 +1,19 @@
-<p>
-  room-type-list works!
-</p>
+<h3>Currently existing room types at Sun Travels</h3>
+<div class="rtList" style="text-align: left">
+  <li *ngFor="let rt of roomTypeList">
+    <br>
+    <table>
+      <tr>
+        <td style="text-align:left">Room Type ID</td>
+        <td> :</td>
+        <td style="text-align: left">{{rt.roomTypeID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Room Type Name</td>
+        <td> :</td>
+        <td style="text-align: left">{{rt.roomTypeName}}</td>
+      </tr>
+    </table>
+    <hr>
+  </li>
+</div>

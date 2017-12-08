@@ -2,7 +2,7 @@ li{
   list-style-type: none;
 }
 
-.contractList
+.roomTypeListByAlias
 {
   max-height: 650px;
   overflow-y: scroll;

@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AddRoomTypeResponseModel} from '../models/add-room-type-response.model';
+import {RoomTypeModel} from '../models/room-type.model';
+import {SunTravelsServicesService} from '../services/sun-travels-services.service';
 
 @Component({
   selector: 'app-add-room-type',
@@ -7,9 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddRoomTypeComponent implements OnInit {
 
-  constructor() { }
+  rt_response: AddRoomTypeResponseModel;
+  roomType: RoomTypeModel;
 
-  ngOnInit() {
+  roomTypeID: number;
+  roomTypeName: string;
+
+  constructor(private service: SunTravelsServicesService) {
+    this.roomType = new RoomTypeModel(this.roomTypeID, this.roomTypeName);
   }
 
+  ngOnInit() {
+    this.rt_response = new AddRoomTypeResponseModel(null, new RoomTypeModel(null, null), null);
+  }
+
+  addRoomType(): void {
+    this.service.addRoomTypeService(this.roomType).subscribe(response => {
+      this.rt_response = response;
+    });
+  }
 }
