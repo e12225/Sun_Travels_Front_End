@@ -4,6 +4,6 @@ li{
 
 .rtList
 {
-  max-height: 650px;
+  max-height: 320px;
   overflow-y: scroll;
 }

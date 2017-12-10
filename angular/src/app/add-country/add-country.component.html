@@ -1,0 +1,58 @@
+<div id="wrapper">
+  <div id="add" class="addNewCountry" style="text-align: left">
+    <h4>Add new country to Sun Travels</h4>
+    <form>
+      <table>
+        <tr>
+          <td style="text-align:left">Country Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="country.countryName" name="co_name"></td>
+        </tr>
+        <tr>
+          <td style="text-align: left">
+            <input type="submit" class="btn" (click)="addCountry()" value="Add">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="true" class="insertedCountry" *ngIf="co_response.insertingStatus == true"
+       style="text-align: left">
+    <h4>Response</h4>
+    <table>
+      <tr>
+        <td style="text-align: left">Inserting Status</td>
+        <td> :</td>
+        <td>{{co_response.insertingStatus}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Country ID</td>
+        <td> :</td>
+        <td>{{co_response.entity.countryID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Country Name</td>
+        <td> :</td>
+        <td>{{co_response.entity.countryName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{co_response.message}}</td>
+      </tr>
+    </table>
+  </div>
+  <div id="false" class="insertedCountry" *ngIf="co_response.insertingStatus == false" style="text-align: left" ng>
+    <h4>Response</h4>
+    <table>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{co_response.message}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+

@@ -4,6 +4,6 @@ li{
 
 .hotelListByAlias
 {
-  max-height: 650px;
+  max-height: 350px;
   overflow-y: scroll;
 }

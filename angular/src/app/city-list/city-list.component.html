@@ -1,0 +1,24 @@
+<h4>Currently existing cities at Sun Travels</h4>
+<div class="cityList" style="text-align: left">
+  <li *ngFor="let city of cityList">
+    <br>
+    <table>
+      <tr>
+        <td style="text-align:left">City ID</td>
+        <td> :</td>
+        <td style="text-align: left">{{city.cityID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">City Name</td>
+        <td> :</td>
+        <td style="text-align: left">{{city.cityName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Country Name</td>
+        <td> :</td>
+        <td style="text-align: left">{{city.countryName}}</td>
+      </tr>
+    </table>
+    <hr>
+  </li>
+</div>

@@ -1,5 +1,5 @@
 <body>
-  <div style="text-align: left">
+  <div style="text-align: left" [ngStyle]="{'font-size': '20px'}">
     <h1>{{title}}</h1>
     <ul>
       <li><a class="active" routerLink="">Home</a></li>
@@ -9,7 +9,8 @@
           <a routerLink="/addNewContract">Add New Contract</a>
           <a routerLink="/contractList">View Contract List</a>
           <a routerLink="/addContractDetails">Add Contract Details</a>
-          <a routerLink="/contractDetailsList">View Contract Details</a>
+          <a routerLink="/contractDetailsList">View Contract Details List</a>
+          <a routerLink="/searchContractDetails">Search Contract Details</a>
         </div>
       </li>
       <li class="dropdown">
@@ -49,7 +50,7 @@
         <div class="dropdown-content">
           <a routerLink="/addNewCustomer">Add New Customer</a>
           <a routerLink="/customerList">View Customer List</a>
-          <a routerLink="/customersByNameOrAlias">Search Customers</a>
+          <a routerLink="/searchCustomers">Search Customers</a>
         </div>
       </li>
     </ul>

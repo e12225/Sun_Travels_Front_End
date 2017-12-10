@@ -1,3 +1,22 @@
 li{
   list-style-type: none;
 }
+
+.reservationsList
+{
+  max-height: 480px;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  width:1250px;
+  clear:both;
+}
+#search {
+  width:650px;
+  float:left;
+}
+#list {
+  width:600px;
+  float:left;
+}

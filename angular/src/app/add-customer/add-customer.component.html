@@ -1,0 +1,107 @@
+<div id="wrapper">
+  <div id="add" class="addNewCustomer" style="text-align: left">
+    <h4>Add new customer to Sun Travels</h4>
+    <form>
+      <table>
+        <tr>
+          <td style="text-align:left">First Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="customer.customerFirstName" name="cu_Fname"></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Last Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="customer.customerLastName" name="cu_Lname"></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Phone Number</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="customer.customerPhoneNumber" name="cu_phone"></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Country Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="customer.countryName" name="cu_co_name"></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">City Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="customer.cityName" name="cu_ci_name"></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">SSN or NIC</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="customer.ssnOrNic" name="cu_identity"></td>
+        </tr>
+        <tr>
+          <td style="text-align: left">
+            <input type="submit" class="btn" (click)="addCustomer()" value="Add">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="true" class="insertedCustomer" *ngIf="cu_response.insertingStatus == true"
+       style="text-align: left">
+    <h4>Response</h4>
+    <table>
+      <tr>
+        <td style="text-align: left">Inserting Status</td>
+        <td> :</td>
+        <td>{{cu_response.insertingStatus}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Customer ID</td>
+        <td> :</td>
+        <td>{{cu_response.entity.customerID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">First Name</td>
+        <td> :</td>
+        <td>{{cu_response.entity.customerFirstName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Last Name</td>
+        <td> :</td>
+        <td>{{cu_response.entity.customerLastName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Phone Number</td>
+        <td> :</td>
+        <td>{{cu_response.entity.customerPhoneNumber}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Country ID</td>
+        <td> :</td>
+        <td>{{cu_response.entity.countryID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">City ID</td>
+        <td> :</td>
+        <td>{{cu_response.entity.cityID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Customer Identity</td>
+        <td> :</td>
+        <td>{{cu_response.entity.ssnOrNic}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{cu_response.message}}</td>
+      </tr>
+    </table>
+  </div>
+  <div id="false" class="insertedCustomer" *ngIf="cu_response.insertingStatus == false" style="text-align: left" ng>
+    <h4>Response</h4>
+    <table>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{cu_response.message}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+

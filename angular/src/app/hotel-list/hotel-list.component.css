@@ -4,6 +4,6 @@ li{
 
 .hotelList
 {
-  max-height: 650px;
+  max-height: 380px;
   overflow-y: scroll;
 }

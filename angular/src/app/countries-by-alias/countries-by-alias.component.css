@@ -1,0 +1,23 @@
+li{
+  list-style-type: none;
+}
+
+.countryListByAlias
+{
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  width:1800px;
+  clear:both;
+}
+#search {
+  width:430px;
+  float:left;
+}
+#list {
+  width:800px;
+  float:left;
+}
+

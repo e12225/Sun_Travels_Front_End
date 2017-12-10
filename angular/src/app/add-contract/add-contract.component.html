@@ -1,64 +1,71 @@
-<div class="addNewContract" style="text-align: left">
-  <h3>Add new contract to Sun Travels</h3>
-  <form>
+<div id="wrapper">
+  <div id="add" class="addNewContract" style="text-align: left">
+    <h4>Add new contract to Sun Travels</h4>
+    <form>
+      <table>
+        <tr>
+          <td style="text-align:left">Hotel Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="contract.hotelName" name="c_Hname"></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Hotel Phone Number</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contract.hotelPhoneNumber" name="c_Hphone"></td>
+        </tr>
+        <tr>
+          <td style="text-align: left">
+            <input type="submit" class="btn" (click)="addContract()" value="Add">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <div id="true" class="insertedContract" *ngIf="c_response.insertingStatus == true" style="text-align: left">
+    <h4>Response</h4>
+    <h4>Use the following Contract ID, when inserting contract details for it</h4>
     <table>
       <tr>
-        <td style="text-align:left">Hotel Name</td>
+        <td style="text-align: left">Inserting Status</td>
         <td> :</td>
-        <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="contract.hotelName" name="c_Hname"></td>
+        <td>{{c_response.insertingStatus}}</td>
       </tr>
       <tr>
-        <td style="text-align: left">
-          <input type="submit" class="btn" (click)="addContract()" value="Add">
-        </td>
+        <td style="text-align: left">Contract ID</td>
+        <td> :</td>
+        <td>{{c_response.entity.contractID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Hotel ID</td>
+        <td> :</td>
+        <td>{{c_response.entity.hotelID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{c_response.message}}</td>
       </tr>
     </table>
-  </form>
+  </div>
+
+  <div id="false" class="insertedContract" *ngIf="c_response.insertingStatus == false" style="text-align: left">
+    <h4>Response</h4>
+    <table>
+      <tr>
+        <td style="text-align: left">Inserting Status</td>
+        <td> :</td>
+        <td>{{c_response.insertingStatus}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{c_response.message}}</td>
+      </tr>
+    </table>
+  </div>
 </div>
 
-<hr>
 
-<div class="insertedContract" *ngIf="c_response.insertingStatus == true" style="text-align: left">
-  <h3>Response</h3>
-  <h4>Use the following Contract ID, when inserting contract details for it</h4>
-  <table>
-    <tr>
-      <td style="text-align: left">Inserting Status</td>
-      <td> :</td>
-      <td>{{c_response.insertingStatus}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Contract ID</td>
-      <td> :</td>
-      <td>{{c_response.entity.contractID}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Hotel ID</td>
-      <td> :</td>
-      <td>{{c_response.entity.hotelID}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Message</td>
-      <td> :</td>
-      <td>{{c_response.message}}</td>
-    </tr>
-  </table>
-</div>
-
-<div class="insertedContract" *ngIf="c_response.insertingStatus == false" style="text-align: left">
-  <h3>Response</h3>
-  <table>
-    <tr>
-      <td style="text-align: left">Inserting Status</td>
-      <td> :</td>
-      <td>{{c_response.insertingStatus}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Message</td>
-      <td> :</td>
-      <td>{{c_response.message}}</td>
-    </tr>
-  </table>
-</div>
 
 

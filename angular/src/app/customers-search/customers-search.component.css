@@ -1,0 +1,22 @@
+li{
+  list-style-type: none;
+}
+
+.customerListByAlias
+{
+  max-height: 365px;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  width:1000px;
+  clear:both;
+}
+#search1 {
+  width:500px;
+  float:left;
+}
+#search2 {
+  width:500px;
+  float:left;
+}

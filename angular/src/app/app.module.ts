@@ -18,6 +18,16 @@ import {AddRoomTypeComponent} from './add-room-type/add-room-type.component';
 import {RoomTypeListComponent} from './room-type-list/room-type-list.component';
 import {HotelsByAliasComponent} from './hotels-by-alias/hotels-by-alias.component';
 import {RoomTypesByAliasComponent} from './room-types-by-alias/room-types-by-alias.component';
+import {AddCountryComponent} from './add-country/add-country.component';
+import {CountryListComponent} from './country-list/country-list.component';
+import {CountriesByAliasComponent} from './countries-by-alias/countries-by-alias.component';
+import {AddCityComponent} from './add-city/add-city.component';
+import {CityListComponent} from './city-list/city-list.component';
+import {CitiesByAliasComponent} from './cities-by-alias/cities-by-alias.component';
+import {CustomerListComponent} from './customer-list/customer-list.component';
+import {CustomersSearchComponent} from './customers-search/customers-search.component';
+import {AddCustomerComponent} from './add-customer/add-customer.component';
+import { ContractDetailsSearchComponent } from './contract-details-search/contract-details-search.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -27,11 +37,21 @@ const appRoutes: Routes = [
   {path: 'addNewRoomType', component: AddRoomTypeComponent},
   {path: 'roomTypeList', component: RoomTypeListComponent},
   {path: 'roomTypeByNameOrAlias', component: RoomTypesByAliasComponent},
+  {path: 'addNewCountry', component: AddCountryComponent},
+  {path: 'countryList', component: CountryListComponent},
+  {path: 'countriesByNameOrAlias', component: CountriesByAliasComponent},
+  {path: 'addNewCity', component: AddCityComponent},
+  {path: 'cityList', component: CityListComponent},
+  {path: 'citiesByNameOrAlias', component: CitiesByAliasComponent},
   {path: 'searchReservations', component: SearchReservationsComponent},
   {path: 'addNewContract', component: AddContractComponent},
   {path: 'contractList', component: ContractListComponent},
   {path: 'addContractDetails', component: AddContractDetailsComponent},
-  {path: 'contractDetailsList', component: ContractDetailsListComponent}
+  {path: 'contractDetailsList', component: ContractDetailsListComponent},
+  {path: 'searchContractDetails', component: ContractDetailsSearchComponent},
+  {path: 'addNewCustomer', component: AddCustomerComponent},
+  {path: 'customerList', component: CustomerListComponent},
+  {path: 'searchCustomers', component: CustomersSearchComponent}
 ];
 
 @NgModule({
@@ -48,7 +68,17 @@ const appRoutes: Routes = [
     AddRoomTypeComponent,
     RoomTypeListComponent,
     HotelsByAliasComponent,
-    RoomTypesByAliasComponent
+    RoomTypesByAliasComponent,
+    AddCountryComponent,
+    CountryListComponent,
+    CountriesByAliasComponent,
+    AddCityComponent,
+    CityListComponent,
+    CitiesByAliasComponent,
+    CustomerListComponent,
+    CustomersSearchComponent,
+    AddCustomerComponent,
+    ContractDetailsSearchComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,6 @@ li{
 
 .roomTypeListByAlias
 {
-  max-height: 650px;
+  max-height: 320px;
   overflow-y: scroll;
 }

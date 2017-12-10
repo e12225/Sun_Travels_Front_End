@@ -1,51 +1,50 @@
-<div class="addNewRoomType" style="text-align: left">
-  <h3>Add new room type to Sun Travels</h3>
-  <form>
+<div id="wrapper">
+  <div id="add" class="addNewRoomType" style="text-align: left">
+    <h4>Add new room type to Sun Travels</h4>
+    <form>
+      <table>
+        <tr>
+          <td style="text-align:left">Room Type Name</td>
+          <td> :</td>
+          <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="roomType.roomTypeName" name="rt_name">
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: left">
+            <input type="submit" class="btn" (click)="addRoomType()" value="Add">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="true" class="insertedRoomType" *ngIf="rt_response.insertingStatus == true"
+       style="text-align: left">
+    <h4>Response</h4>
     <table>
       <tr>
-        <td style="text-align:left">Room Type Name</td>
+        <td style="text-align: left">Inserting Status</td>
         <td> :</td>
-        <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="roomType.roomTypeName" name="rt_name"></td>
+        <td>{{rt_response.insertingStatus}}</td>
       </tr>
       <tr>
-        <td style="text-align: left">
-          <input type="submit" class="btn" (click)="addRoomType()" value="Add">
-        </td>
+        <td style="text-align: left">Room Type ID</td>
+        <td> :</td>
+        <td>{{rt_response.entity.roomTypeID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Room Type Name</td>
+        <td> :</td>
+        <td>{{rt_response.entity.roomTypeName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Message</td>
+        <td> :</td>
+        <td>{{rt_response.message}}</td>
       </tr>
     </table>
-  </form>
-</div>
-
-<hr>
-
-<div class="insertedRoomType" *ngIf="rt_response.insertingStatus == true"
-     style="text-align: left">
-  <h3>Response</h3>
-  <table>
-    <tr>
-      <td style="text-align: left">Inserting Status</td>
-      <td> :</td>
-      <td>{{rt_response.insertingStatus}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Room Type ID</td>
-      <td> :</td>
-      <td>{{rt_response.entity.roomTypeID}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Room Type Name</td>
-      <td> :</td>
-      <td>{{rt_response.entity.roomTypeName}}</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Message</td>
-      <td> :</td>
-      <td>{{rt_response.message}}</td>
-    </tr>
-  </table>
-
-  <div *ngIf="rt_response.insertingStatus == false" style="text-align: left" ng>
-    <h3>Response</h3>
+  </div>
+  <div id="false" class="insertedRoomType" *ngIf="rt_response.insertingStatus == false" style="text-align: left" ng>
+    <h4>Response</h4>
     <table>
       <tr>
         <td style="text-align: left">Message</td>
@@ -54,3 +53,5 @@
       </tr>
     </table>
   </div>
+</div>
+

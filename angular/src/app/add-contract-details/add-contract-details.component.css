@@ -1,0 +1,16 @@
+#wrapper {
+  width:1800px;
+  clear:both;
+}
+#add {
+  width:550px;
+  float:left;
+}
+#true {
+  width:800px;
+  float:left;
+}
+#false {
+  width:800px;
+  float:left;
+}

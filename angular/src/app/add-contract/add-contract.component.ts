@@ -16,9 +16,10 @@ export class AddContractComponent implements OnInit {
 
   contractID: number;
   hotelName: string;
+  hotelPhoneNumber: number;
 
   constructor(private service: SunTravelsServicesService) {
-    this.contract = new ContractModel(this.contractID, this.hotelName);
+    this.contract = new ContractModel(this.contractID, this.hotelName, this.hotelPhoneNumber);
   }
 
   ngOnInit() {

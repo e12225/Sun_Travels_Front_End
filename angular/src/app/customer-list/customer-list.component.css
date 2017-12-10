@@ -1,0 +1,9 @@
+li{
+  list-style-type: none;
+}
+
+.customerList
+{
+  max-height: 400px;
+  overflow-y: scroll;
+}

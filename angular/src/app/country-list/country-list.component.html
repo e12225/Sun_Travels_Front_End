@@ -1,0 +1,19 @@
+<h4>Currently existing countries at Sun Travels</h4>
+<div class="coList" style="text-align: left">
+  <li *ngFor="let co of countryList">
+    <br>
+    <table>
+      <tr>
+        <td style="text-align:left">Country ID</td>
+        <td> :</td>
+        <td style="text-align: left">{{co.countryID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Country Name</td>
+        <td> :</td>
+        <td style="text-align: left">{{co.countryName}}</td>
+      </tr>
+    </table>
+    <hr>
+  </li>
+</div>

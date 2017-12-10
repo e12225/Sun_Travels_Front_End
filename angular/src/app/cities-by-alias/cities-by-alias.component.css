@@ -1,0 +1,22 @@
+li{
+  list-style-type: none;
+}
+
+.cityListByAlias
+{
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  width:1800px;
+  clear:both;
+}
+#search {
+  width:430px;
+  float:left;
+}
+#list {
+  width:800px;
+  float:left;
+}

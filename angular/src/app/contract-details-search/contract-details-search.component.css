@@ -1,0 +1,23 @@
+li{
+  list-style-type: none;
+}
+
+.ctrDListByHotelAlias
+{
+  max-height: 470px;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  width:1100px;
+  clear:both;
+}
+#search {
+  width:500px;
+  float:left;
+}
+#list {
+  width:600px;
+  float:left;
+}
+

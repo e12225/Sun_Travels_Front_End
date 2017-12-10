@@ -1,0 +1,9 @@
+li{
+  list-style-type: none;
+}
+
+.cityList
+{
+  max-height: 400px;
+  overflow-y: scroll;
+}

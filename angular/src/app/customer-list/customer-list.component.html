@@ -1,0 +1,45 @@
+<h4>Currently registered customers at Sun Travels</h4>
+<div class="customerList" style="text-align: left">
+  <li *ngFor="let customer of customerList">
+    <br>
+    <table>
+      <tr>
+        <td style="text-align:left">Customer ID</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.customerID}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">First Name</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.customerFirstName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Last Name</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.customerLastName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Phone Number</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.customerPhoneNumber}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Country</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.countryName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">City</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.cityName}}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">Customer Identity</td>
+        <td> :</td>
+        <td style="text-align: left">{{customer.ssnOrNic}}</td>
+      </tr>
+    </table>
+    <hr>
+  </li>
+</div>
+
