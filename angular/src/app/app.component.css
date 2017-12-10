@@ -50,3 +50,15 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+#rootDiv {
+  font-family: Calibri;
+}
+
+#title {
+  color: cornflowerblue;
+}
+
+#body {
+  height: 630px;
+}

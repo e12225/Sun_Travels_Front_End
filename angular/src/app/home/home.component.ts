@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  imagePath: string;
+
+  constructor() {
+    this.imagePath = 'assets/wpid-anigif_enhanced-1407-1392406036-2-1.gif';
+  }
 
   ngOnInit() {
   }
