@@ -3,14 +3,14 @@
   clear:both;
 }
 #add {
-  width:430px;
+  width:530px;
   float:left;
 }
 #true {
-  width:800px;
+  width:1100px;
   float:left;
 }
 #false {
-  width:800px;
+  width:1200px;
   float:left;
 }

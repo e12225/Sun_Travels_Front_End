@@ -1,51 +1,52 @@
-<div class="hotels" style="text-align: left">
-  <h4>Search Hotels</h4>
-  <form>
-    <table>
-      <tr>
-        <td style="text-align: left">
-          <input type="text" class="txt" placeholder="Name or Alias.." [(ngModel)] = "alias" name="alias-or-name">
-        </td>
-        <td style="text-align: left">
-          <input type="submit" class="btn" (click)="getHotelsByAlias()" value="Search">
-        </td>
-      </tr>
-    </table>
-  </form>
+<div id="wrapper">
+  <div id="search" class="hotels" style="text-align: left">
+    <h4>Search Hotels</h4>
+    <form>
+      <table>
+        <tr>
+          <td style="text-align: left">
+            <input type="text" class="txt" placeholder="Name or Alias.." [(ngModel)] = "alias" name="alias-or-name">
+          </td>
+          <td style="text-align: left">
+            <input type="submit" class="btn" (click)="getHotelsByAlias()" value="Search">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="list" class="hotelListByAlias" style="text-align: left">
+    <li *ngFor="let hotel of hotelList">
+      <br>
+      <table>
+        <tr>
+          <td style="text-align:left">Hotel ID</td>
+          <td> :</td>
+          <td style="text-align: left">{{hotel.hotelID}}</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Hotel Name</td>
+          <td> :</td>
+          <td style="text-align: left">{{hotel.hotelName}}</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Phone Number</td>
+          <td> :</td>
+          <td style="text-align: left">{{hotel.hotelPhoneNumber}}</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Country Name</td>
+          <td> :</td>
+          <td style="text-align: left">{{hotel.countryName}}</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">City Name</td>
+          <td> :</td>
+          <td style="text-align: left">{{hotel.cityName}}</td>
+        </tr>
+      </table>
+      <hr>
+    </li>
+  </div>
 </div>
 
-<hr>
 
-<div class="hotelListByAlias" style="text-align: left">
-  <li *ngFor="let hotel of hotelList">
-    <br>
-    <table>
-      <tr>
-        <td style="text-align:left">Hotel ID</td>
-        <td> :</td>
-        <td style="text-align: left">{{hotel.hotelID}}</td>
-      </tr>
-      <tr>
-        <td style="text-align:left">Hotel Name</td>
-        <td> :</td>
-        <td style="text-align: left">{{hotel.hotelName}}</td>
-      </tr>
-      <tr>
-        <td style="text-align:left">Phone Number</td>
-        <td> :</td>
-        <td style="text-align: left">{{hotel.hotelPhoneNumber}}</td>
-      </tr>
-      <tr>
-        <td style="text-align:left">Country Name</td>
-        <td> :</td>
-        <td style="text-align: left">{{hotel.countryName}}</td>
-      </tr>
-      <tr>
-        <td style="text-align:left">City Name</td>
-        <td> :</td>
-        <td style="text-align: left">{{hotel.cityName}}</td>
-      </tr>
-    </table>
-    <hr>
-  </li>
-</div>

@@ -4,12 +4,12 @@ li{
 
 .customerListByAlias
 {
-  max-height: 365px;
+  max-height: 580px;
   overflow-y: scroll;
 }
 
 #wrapper {
-  width:1000px;
+  width:1200px;
   clear:both;
 }
 #search1 {
@@ -17,6 +17,7 @@ li{
   float:left;
 }
 #search2 {
+  margin-left: 50px;
   width:500px;
   float:left;
 }

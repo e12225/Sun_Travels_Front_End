@@ -4,6 +4,6 @@ li{
 
 .cityList
 {
-  max-height: 400px;
+  max-height: 480px;
   overflow-y: scroll;
 }

@@ -1,36 +1,36 @@
-<div class="roomTypes" style="text-align: left">
-  <h4>Search Room Types</h4>
-  <form>
-    <table>
-      <tr>
-        <td style="text-align: left">
-          <input type="text" class="txt" placeholder="Name or Alias.." [(ngModel)] = "alias" name="alias-or-name">
-        </td>
-        <td style="text-align: left">
-          <input type="submit" class="btn" (click)="getRoomTypesByAlias()" value="Search">
-        </td>
-      </tr>
-    </table>
-  </form>
+<div id="wrapper">
+  <div id="search" class="roomTypes" style="text-align: left">
+    <h4>Search Room Types</h4>
+    <form>
+      <table>
+        <tr>
+          <td style="text-align: left">
+            <input type="text" class="txt" placeholder="Name or Alias.." [(ngModel)] = "alias" name="alias-or-name">
+          </td>
+          <td style="text-align: left">
+            <input type="submit" class="btn" (click)="getRoomTypesByAlias()" value="Search">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <div id="list" class="roomTypeListByAlias" style="text-align: left">
+    <li *ngFor="let rt of roomTypeList">
+      <br>
+      <table>
+        <tr>
+          <td style="text-align:left">Room Type ID</td>
+          <td> :</td>
+          <td style="text-align: left">{{rt.roomTypeID}}</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Room Type Name</td>
+          <td> :</td>
+          <td style="text-align: left">{{rt.roomTypeName}}</td>
+        </tr>
+      </table>
+      <hr>
+    </li>
+  </div>
 </div>
 
-<hr>
-
-<div class="roomTypeListByAlias" style="text-align: left">
-  <li *ngFor="let rt of roomTypeList">
-    <br>
-    <table>
-      <tr>
-        <td style="text-align:left">Room Type ID</td>
-        <td> :</td>
-        <td style="text-align: left">{{rt.roomTypeID}}</td>
-      </tr>
-      <tr>
-        <td style="text-align:left">Room Type Name</td>
-        <td> :</td>
-        <td style="text-align: left">{{rt.roomTypeName}}</td>
-      </tr>
-    </table>
-    <hr>
-  </li>
-</div>

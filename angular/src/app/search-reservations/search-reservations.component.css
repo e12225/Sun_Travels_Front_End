@@ -13,10 +13,20 @@ li{
   clear:both;
 }
 #search {
-  width:650px;
+  width:700px;
   float:left;
 }
 #list {
-  width:600px;
+  width:500px;
   float:left;
+}
+
+#home {
+  width:1000px;
+  clear:both;
+}
+
+#heading {
+  font-family: Calibri;
+  color: darkorange;
 }

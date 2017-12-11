@@ -4,6 +4,21 @@ li{
 
 .roomTypeListByAlias
 {
-  max-height: 320px;
+  max-height: 400px;
   overflow-y: scroll;
 }
+
+#wrapper {
+  width:1500px;
+  clear:both;
+}
+#search {
+  width:600px;
+  float:left;
+}
+#list {
+  margin-top: 45px;
+  width:600px;
+  float:left;
+}
+

@@ -2,23 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac593efa-275c-4823-bbf8-764086d8376f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/home/home.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/home/home.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/home/home.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/src/app/home/home.component.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/package-lock.json" afterPath="$PROJECT_DIR$/angular/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/package.json" afterPath="$PROJECT_DIR$/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.html" afterPath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.html" afterPath="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-city/add-city.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-city/add-city.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-country/add-country.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-country/add-country.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-customer/add-customer.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-customer/add-customer.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.css" afterPath="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/app.component.html" afterPath="$PROJECT_DIR$/angular/src/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/app.module.ts" afterPath="$PROJECT_DIR$/angular/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/cities-by-alias/cities-by-alias.component.css" afterPath="$PROJECT_DIR$/angular/src/app/cities-by-alias/cities-by-alias.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/city-list/city-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/city-list/city-list.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-details-search/contract-details-search.component.css" afterPath="$PROJECT_DIR$/angular/src/app/contract-details-search/contract-details-search.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/countries-by-alias/countries-by-alias.component.css" afterPath="$PROJECT_DIR$/angular/src/app/countries-by-alias/countries-by-alias.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/country-list/country-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/country-list/country-list.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/customer-list/customer-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/customer-list/customer-list.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/customers-search/customers-search.component.css" afterPath="$PROJECT_DIR$/angular/src/app/customers-search/customers-search.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.css" afterPath="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.html" afterPath="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.css" afterPath="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.html" afterPath="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.ts" afterPath="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" afterPath="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.css" afterPath="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html" afterPath="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.css" afterPath="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html" afterPath="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,42 +45,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="hotels-by-alias.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="search-reservations.component.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-reservations.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hotels-by-alias.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="room-types-by-alias.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="room-types-by-alias.component.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -91,26 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/angular/src/app/available-reservations/search/search.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.spec.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/entity-models/available-reservation.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/hotel/hotel.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/hotel/hotel.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/add-hotel/add-hotel.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/entity-models/hotel.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels/hotel-list/hotel-list.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/entity-models/reservation-search.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/models/reservation-search.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/models/add-hotel-response.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/models/contract.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/models/inserted-contract-in-db.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/models/inserted-hotel-in-db.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/models/add-contract-respone.model.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/models/add-contract-details-response.model.ts" />
@@ -121,12 +95,7 @@
         <option value="$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css" />
-        <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" />
-        <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.css" />
         <option value="$PROJECT_DIR$/angular/src/app/room-type-list/room-type.model.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/models/add-room-type-response.model.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.ts" />
@@ -134,14 +103,39 @@
         <option value="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.css" />
-        <option value="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.ts" />
-        <option value="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html" />
-        <option value="$PROJECT_DIR$/angular/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/angular/src/app/services/sun-travels-services.service.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/home/home.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.html" />
+        <option value="$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html" />
         <option value="$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-country/add-country.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/country-list/country-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/contract-details-search/contract-details-search.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/countries-by-alias/countries-by-alias.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-city/add-city.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/city-list/city-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/cities-by-alias/cities-by-alias.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/add-customer/add-customer.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/customer-list/customer-list.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/customers-search/customers-search.component.css" />
+        <option value="$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.css" />
       </list>
     </option>
   </component>
@@ -176,8 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,30 +203,7 @@
               <item name="angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="hotels-by-alias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sun_Travels_Front_End" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="room-types-by-alias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sun_Travels_Front_End" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sun_Travels_Front_End" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sun_Travels_Front_End" type="462c0819:PsiDirectoryNode" />
-              <item name="angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="search-reservations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,26 +262,27 @@
       <workItem from="1512444826676" duration="2997000" />
       <workItem from="1512553357001" duration="11655000" />
       <workItem from="1512619962372" duration="9904000" />
-      <workItem from="1512706442368" duration="4657000" />
+      <workItem from="1512706442368" duration="5254000" />
+      <workItem from="1512965942161" duration="2411000" />
+      <workItem from="1512993501990" duration="7084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131279000" />
+    <option name="totallyTimeSpent" value="141371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20337197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20758693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44130436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2597826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -318,6 +290,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -397,132 +370,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/reservation-search.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contracts/contracts.component.html" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details/view-contract-details/view-contract-details.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details/contract-details.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/room-types/room-types.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/room-type/room-type.component.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/hotel-list-element.model.ts" />
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/contract.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/add-contract-response.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/add-contract-details-response.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/available-reservation.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/inserted-contract-details-in-db.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/inserted-contract-in-db.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/models/contract-details.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,26 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,9 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,11 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,10 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,35 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#4;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#li#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,9 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,58 +507,253 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="32" column="109" lean-forward="true" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/home/home.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="83" lean-forward="true" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-city/add-city.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract/add-contract.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-list/contract-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-contract-details/add-contract-details.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-list/contract-details-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-hotel/add-hotel.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/hotel-list/hotel-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
+        <state relative-caret-position="272">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/hotels-by-alias/hotels-by-alias.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html">
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-room-type/add-room-type.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/room-type-list/room-type-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/room-types-by-alias/room-types-by-alias.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-country/add-country.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/country-list/country-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/countries-by-alias/countries-by-alias.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-city/add-city.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/city-list/city-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/add-customer/add-customer.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/cities-by-alias/cities-by-alias.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/customer-list/customer-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/contract-details-search/contract-details-search.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/customers-search/customers-search.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/src/app/search-reservations/search-reservations.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>

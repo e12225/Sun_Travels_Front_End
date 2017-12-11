@@ -6,7 +6,6 @@ import {SunTravelsServicesService} from './services/sun-travels-services.service
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule, Routes} from '@angular/router';
 import {AddContractComponent} from './add-contract/add-contract.component';
-import {HomeComponent} from './home/home.component';
 import {FormsModule} from '@angular/forms';
 import {HotelListComponent} from './hotel-list/hotel-list.component';
 import {SearchReservationsComponent} from './search-reservations/search-reservations.component';
@@ -27,10 +26,9 @@ import {CitiesByAliasComponent} from './cities-by-alias/cities-by-alias.componen
 import {CustomerListComponent} from './customer-list/customer-list.component';
 import {CustomersSearchComponent} from './customers-search/customers-search.component';
 import {AddCustomerComponent} from './add-customer/add-customer.component';
-import { ContractDetailsSearchComponent } from './contract-details-search/contract-details-search.component';
+import {ContractDetailsSearchComponent} from './contract-details-search/contract-details-search.component';
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
   {path: 'addNewHotel', component: AddHotelComponent},
   {path: 'hotelList', component: HotelListComponent},
   {path: 'hotelsByAlias', component: HotelsByAliasComponent},
@@ -59,7 +57,6 @@ const appRoutes: Routes = [
     AppComponent,
     SearchReservationsComponent,
     AddContractComponent,
-    HomeComponent,
     AddHotelComponent,
     HotelListComponent,
     AddContractDetailsComponent,

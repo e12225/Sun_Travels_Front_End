@@ -4,6 +4,20 @@ li{
 
 .hotelListByAlias
 {
-  max-height: 350px;
+  max-height: 600px;
   overflow-y: scroll;
+}
+
+#wrapper {
+  width:1800px;
+  clear:both;
+}
+#search {
+  width:500px;
+  float:left;
+}
+#list {
+  margin-top: 45px;
+  width:800px;
+  float:left;
 }

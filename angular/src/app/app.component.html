@@ -1,8 +1,8 @@
 <body id="body">
-  <div id = "rootDiv" style="text-align: left" [ngStyle]="{'font-size': '20px'}">
+  <div id = "rootDiv" style="text-align: left" [ngStyle]="{'font-size': '25px'}">
     <h1 id="title">{{title}}</h1>
     <ul>
-      <li><a class="active" routerLink="">Home</a></li>
+      <li><a class="active" routerLink="/searchReservations">Home</a></li>
       <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Contracts</a>
         <div class="dropdown-content">
@@ -28,7 +28,7 @@
           <a routerLink="/roomTypeList">View Room Type List</a>
           <a routerLink="/roomTypeByNameOrAlias">Search Room Types</a>
         </div>
-      <li><a class="active" routerLink="/searchReservations">Search Reservations</a></li>
+      </li>
       <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Countries</a>
         <div class="dropdown-content">
