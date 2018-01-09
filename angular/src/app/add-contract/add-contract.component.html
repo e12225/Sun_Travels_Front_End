@@ -13,6 +13,7 @@
           <td> :</td>
           <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contract.hotelPhoneNumber" name="c_Hphone"></td>
         </tr>
+        <br>
         <tr>
           <td style="text-align: left">
             <input type="submit" class="btn" (click)="addContract()" value="Add">
@@ -22,7 +23,7 @@
     </form>
   </div>
 
-  <div id="true" class="insertedContract" *ngIf="c_response.insertingStatus == true" style="text-align: left">
+  <div id="true" class="insertedContract" *ngIf="requestValidity == true && c_response.insertingStatus == true" style="text-align: left">
     <h4>Response</h4>
     <h4>Use the following Contract ID, when inserting contract details for it</h4>
     <table>
@@ -49,7 +50,7 @@
     </table>
   </div>
 
-  <div id="false" class="insertedContract" *ngIf="c_response.insertingStatus == false" style="text-align: left">
+  <div id="false" class="insertedContract" *ngIf="requestValidity == true && c_response.insertingStatus == false" style="text-align: left">
     <h4>Response</h4>
     <table>
       <tr>
@@ -64,6 +65,15 @@
       </tr>
     </table>
   </div>
+
+  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
+    <table>
+      <tr>
+        <td style="text-align:left">{{message}}</td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 
 

@@ -14,6 +14,9 @@ export class AddContractDetailsComponent implements OnInit {
   cd_response: AddContractDetailsResponseModel;
   contractDetails: ContractDetailsModel;
 
+  requestValidity: boolean;
+  message: string;
+
   contractDetailsID: number;
   contractID: number;
   validFrom: Date;
@@ -34,8 +37,14 @@ export class AddContractDetailsComponent implements OnInit {
   }
 
   addContractDetails(): void {
-    this.service.addContractDetailsService(this.contractDetails).subscribe(response => {
-      this.cd_response = response;
-    });
+    if (this.contractDetails.contractID && this.contractDetails.validFrom && this.contractDetails.validTo && this.contractDetails.roomType && this.contractDetails.numberOfRooms && this.contractDetails.maxAdults && this.contractDetails.price) {
+      this.requestValidity = true;
+      this.service.addContractDetailsService(this.contractDetails).subscribe(response => {
+        this.cd_response = response;
+      });
+    } else {
+      this.message = 'Please enter the missing information to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

@@ -10,10 +10,17 @@ import {SunTravelsServicesService} from '../services/sun-travels-services.servic
 export class CustomersSearchComponent implements OnInit {
 
   customerList: CustomerModel[];
+
+  request_1_Validity: boolean;
+  request_2_Validity: boolean;
+
+  message_1: string;
+  message_2: string;
+
   alias: string;
+  identity: string;
 
   customer: CustomerModel;
-  identity: string;
 
   constructor(private service: SunTravelsServicesService) {
   }
@@ -22,14 +29,26 @@ export class CustomersSearchComponent implements OnInit {
   }
 
   getCustomersByAlias(): void {
-    this.service.getCustomersByNameOrAliasService(this.alias).subscribe(customerList => {
-      this.customerList = customerList;
-    });
+    if (this.alias) {
+      this.request_1_Validity = true;
+      this.service.getCustomersByNameOrAliasService(this.alias).subscribe(customerList => {
+        this.customerList = customerList;
+      });
+    } else {
+      this.message_1 = 'Please enter a customer name or an alias to proceed !';
+      this.request_1_Validity = false;
+    }
   }
 
   getCustomerByIdentity(): void {
-    this.service.getCustomerByIdentityService(this.identity).subscribe(customer => {
-      this.customer = customer;
-    });
+    if (this.identity) {
+      this.request_2_Validity = true;
+      this.service.getCustomerByIdentityService(this.identity).subscribe(customer => {
+        this.customer = customer;
+      });
+    }else {
+      this.message_2 = 'Please enter a customer identity to proceed !';
+      this.request_2_Validity = false;
+    }
   }
 }

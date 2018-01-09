@@ -28,6 +28,10 @@ import {CustomersSearchComponent} from './customers-search/customers-search.comp
 import {AddCustomerComponent} from './add-customer/add-customer.component';
 import {ContractDetailsSearchComponent} from './contract-details-search/contract-details-search.component';
 
+// import alert service and component
+import { AlertComponent } from './_directives/index';
+import { AlertService } from './_services/index';
+
 const appRoutes: Routes = [
   {path: 'addNewHotel', component: AddHotelComponent},
   {path: 'hotelList', component: HotelListComponent},
@@ -49,7 +53,8 @@ const appRoutes: Routes = [
   {path: 'searchContractDetails', component: ContractDetailsSearchComponent},
   {path: 'addNewCustomer', component: AddCustomerComponent},
   {path: 'customerList', component: CustomerListComponent},
-  {path: 'searchCustomers', component: CustomersSearchComponent}
+  {path: 'searchCustomers', component: CustomersSearchComponent},
+  {path: '', redirectTo: '/searchReservations', pathMatch: 'full'}
 ];
 
 @NgModule({
@@ -75,7 +80,9 @@ const appRoutes: Routes = [
     CustomerListComponent,
     CustomersSearchComponent,
     AddCustomerComponent,
-    ContractDetailsSearchComponent
+    ContractDetailsSearchComponent,
+    // include alert directive component in app module declarations
+    AlertComponent
   ],
   imports: [
     BrowserModule,
@@ -83,7 +90,11 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     FormsModule
   ],
-  providers: [SunTravelsServicesService],
+  providers: [
+    SunTravelsServicesService,
+    // include alert service in app module providers
+    AlertService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

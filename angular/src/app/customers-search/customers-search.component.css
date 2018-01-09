@@ -13,11 +13,58 @@ li{
   clear:both;
 }
 #search1 {
-  width:500px;
+  width:510px;
   float:left;
 }
 #search2 {
-  margin-left: 50px;
+  margin-left: 100px;
   width:500px;
   float:left;
 }
+#list {
+  margin-top: 45px;
+  width:500px;
+  float:left;
+}
+#list_ {
+  margin-top: 45px;
+  width:800px;
+  float:left;
+}
+#empty-list {
+  margin-top: 45px;
+  width:550px;
+  float:left;
+}
+#missing-values {
+  margin-top: 45px;
+  width:550px;
+  float:left;
+}
+#not-found {
+  margin-top: 45px;
+  width:550px;
+  float:left;
+}
+#missing-values_ {
+  margin-top: 45px;
+  width:550px;
+  float:left;
+}
+
+.btn {
+  background-color: darkorange;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: Calibri;
+  font-style: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+

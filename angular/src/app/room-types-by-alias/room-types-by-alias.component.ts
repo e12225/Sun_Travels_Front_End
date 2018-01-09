@@ -10,6 +10,10 @@ import {SunTravelsServicesService} from '../services/sun-travels-services.servic
 export class RoomTypesByAliasComponent implements OnInit {
 
   roomTypeList: RoomTypeModel[];
+
+  requestValidity: boolean;
+  message: string;
+
   alias: string;
 
   constructor(private service: SunTravelsServicesService) {
@@ -19,8 +23,15 @@ export class RoomTypesByAliasComponent implements OnInit {
   }
 
   getRoomTypesByAlias(): void {
-    this.service.getRoomTypesByAliasService(this.alias).subscribe(rtList => {
-      this.roomTypeList = rtList;
-    });
+    if (this.alias) {
+      this.requestValidity = true;
+      this.service.getRoomTypesByAliasService(this.alias).subscribe(rtList => {
+        this.roomTypeList = rtList;
+      });
+    } else {
+      this.message = 'Please enter a room type name or an alias to proceed !';
+      this.requestValidity = false;
+    }
+
   }
 }

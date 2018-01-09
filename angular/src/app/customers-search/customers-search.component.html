@@ -13,7 +13,9 @@
         </tr>
       </table>
     </form>
-    <div class="customerListByAlias" style="text-align: left">
+
+    <div id="list" class="customerListByAlias" style="text-align: left"
+         *ngIf="request_1_Validity == true && customerList?.length > 0">
       <li *ngFor="let customer of customerList">
         <br>
         <table>
@@ -56,6 +58,24 @@
         <hr>
       </li>
     </div>
+
+    <div id="empty-list" class="emptyCustomerList" *ngIf="request_1_Validity == true && customerList?.length == 0"
+         style="text-align: left">
+      <table>
+        <tr>
+          <td style="text-align:left">No matching customers exist for the given name</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="missing-values" class="error" *ngIf="request_1_Validity == false" style="text-align: left">
+      <table>
+        <tr>
+          <td style="text-align:left">{{message_1}}</td>
+        </tr>
+      </table>
+    </div>
+
   </div>
 
   <div id="search2">
@@ -72,7 +92,8 @@
         </tr>
       </table>
     </form>
-    <div class="customerByIdentity" style="text-align: left" *ngIf="customer">
+
+    <div id="list_"class="customerByIdentity" style="text-align: left" *ngIf="request_2_Validity == true && customer">
       <table>
         <tr>
           <td style="text-align: left">Customer ID</td>
@@ -111,124 +132,24 @@
         </tr>
       </table>
     </div>
+
+    <div id="not-found" class="emptyCustomer" *ngIf="request_2_Validity == true && customer?.valueOf() == null"
+         style="text-align: left">
+      <table>
+        <tr>
+          <td style="text-align:left">No matching customer exists for the given identity</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="missing-values_" class="error" *ngIf="request_2_Validity == false" style="text-align: left">
+      <table>
+        <tr>
+          <td style="text-align:left">{{message_2}}</td>
+        </tr>
+      </table>
+    </div>
+
   </div>
+
 </div>
-
-
-
-
-
-<!--<div class="customers" style="text-align: left">-->
-  <!--<h4>Search Customers By Name or Alias</h4>-->
-  <!--<form>-->
-    <!--<table>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">-->
-          <!--<input type="text" class="txt" placeholder="Name or Alias.." [(ngModel)]="alias" name="alias-or-name">-->
-        <!--</td>-->
-        <!--<td style="text-align: left">-->
-          <!--<input type="submit" class="btn" (click)="getCustomersByAlias()" value="Search">-->
-        <!--</td>-->
-      <!--</tr>-->
-    <!--</table>-->
-  <!--</form>-->
-  <!--<div id="search" class="customerListByAlias" style="text-align: left">-->
-    <!--<li *ngFor="let customer of customerList">-->
-      <!--<br>-->
-      <!--<table>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">Customer ID</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.customerID}}</td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">First Name</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.customerFirstName}}</td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">Last Name</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.customerLastName}}</td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">Phone Number</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.customerPhoneNumber}}</td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">Country</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.countryName}}</td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">City</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.cityName}}</td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-          <!--<td style="text-align:left">Customer Identity</td>-->
-          <!--<td> :</td>-->
-          <!--<td style="text-align: left">{{customer.ssnOrNic}}</td>-->
-        <!--</tr>-->
-      <!--</table>-->
-      <!--<hr>-->
-    <!--</li>-->
-  <!--</div>-->
-<!--</div>-->
-
-<!--<div class="customer" style="text-align: left">-->
-  <!--<h4>Search Customers By Identity</h4>-->
-  <!--<form>-->
-    <!--<table>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">-->
-          <!--<input type="text" class="txt" placeholder="Identity" [(ngModel)]="identity" name="identity">-->
-        <!--</td>-->
-        <!--<td style="text-align: left">-->
-          <!--<input type="submit" class="btn" (click)="getCustomerByIdentity()" value="Search">-->
-        <!--</td>-->
-      <!--</tr>-->
-    <!--</table>-->
-  <!--</form>-->
-  <!--<div class="customerByIdentity" style="text-align: left" *ngIf="customer">-->
-    <!--<table>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">Customer ID</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.customerID}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">First Name</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.customerFirstName}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">Last Name</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.customerLastName}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">Phone Number</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.customerPhoneNumber}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">Country Name</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.countryName}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">City Name</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.cityName}}</td>-->
-      <!--</tr>-->
-      <!--<tr>-->
-        <!--<td style="text-align: left">SSN or NIC</td>-->
-        <!--<td> :</td>-->
-        <!--<td>{{customer.ssnOrNic}}</td>-->
-      <!--</tr>-->
-    <!--</table>-->
-  <!--</div>-->
-<!--</div>-->
-

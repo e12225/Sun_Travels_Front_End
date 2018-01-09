@@ -14,6 +14,9 @@ export class AddHotelComponent implements OnInit {
   h_response: AddHotelResponseModel;
   hotel: HotelModel;
 
+  requestValidity: boolean;
+  message: string;
+
   hotelID: number;
   hotelName: string;
   hotelPhoneNumber: number;
@@ -29,8 +32,14 @@ export class AddHotelComponent implements OnInit {
   }
 
   addHotel(): void {
-    this.service.addHotelService(this.hotel).subscribe(response => {
-      this.h_response = response;
-    });
+    if (this.hotel.hotelName && this.hotel.hotelPhoneNumber && this.hotel.countryName && this.hotel.cityName) {
+      this.requestValidity = true;
+      this.service.addHotelService(this.hotel).subscribe(response => {
+        this.h_response = response;
+      });
+    } else {
+      this.message = 'Please enter the missing information to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

@@ -13,6 +13,9 @@ export class AddCountryComponent implements OnInit {
   co_response: AddCountryResponseModel;
   country: CountryModel;
 
+  requestValidity: boolean;
+  message: string;
+
   countryID: number;
   countryName: string;
 
@@ -25,8 +28,14 @@ export class AddCountryComponent implements OnInit {
   }
 
   addCountry(): void {
-    this.service.addCountryService(this.country).subscribe(response => {
-      this.co_response = response;
-    });
+    if (this.country.countryName) {
+      this.requestValidity = true;
+      this.service.addCountryService(this.country).subscribe(response => {
+        this.co_response = response;
+      });
+    } else {
+      this.message = 'Please enter a country name to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

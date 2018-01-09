@@ -45,6 +45,7 @@
           <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.price"
                                              name="cd_price"> USD</td>
         </tr>
+        <br>
         <tr>
           <td style="text-align: left">
             <input type="submit" class="btn" (click)="addContractDetails()" value="Add">
@@ -53,7 +54,8 @@
       </table>
     </form>
   </div>
-  <div id="true" class="insertedContractDetails" *ngIf="cd_response.insertingStatus == true"
+
+  <div id="true" class="insertedContractDetails" *ngIf="requestValidity == true && cd_response.insertingStatus == true"
        style="text-align: left">
     <h4>Response</h4>
     <table>
@@ -109,7 +111,9 @@
       </tr>
     </table>
   </div>
-  <div id="false" class="insertedContractDetails" *ngIf="cd_response.insertingStatus == false" style="text-align: left" ng>
+
+
+  <div id="false" class="insertedContractDetails" *ngIf="requestValidity == true && cd_response.insertingStatus == false" style="text-align: left" ng>
     <h4>Response</h4>
     <table>
       <tr>
@@ -121,6 +125,14 @@
         <td style="text-align: left">Message</td>
         <td> :</td>
         <td>{{cd_response.message}}</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
+    <table>
+      <tr>
+        <td style="text-align:left">{{message}}</td>
       </tr>
     </table>
   </div>

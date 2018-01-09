@@ -13,6 +13,9 @@ export class AddCityComponent implements OnInit {
   ci_response: AddCityResponseModel;
   city: CityModel;
 
+  requestValidity: boolean;
+  message: string;
+
   cityID: number;
   countryName: string;
   cityName: string;
@@ -26,8 +29,14 @@ export class AddCityComponent implements OnInit {
   }
 
   addCity(): void {
-    this.service.addCityService(this.city).subscribe(response => {
-      this.ci_response = response;
-    });
+    if (this.city.countryName && this.city.cityName) {
+      this.requestValidity = true;
+      this.service.addCityService(this.city).subscribe(response => {
+        this.ci_response = response;
+      });
+    } else {
+      this.message = 'Please enter the missing information to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

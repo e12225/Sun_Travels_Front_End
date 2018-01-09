@@ -10,6 +10,10 @@ import {SunTravelsServicesService} from '../services/sun-travels-services.servic
 export class CitiesByAliasComponent implements OnInit {
 
   cityList: CityModel[];
+
+  requestValidity: boolean;
+  message: string;
+
   alias: string;
 
   constructor(private service: SunTravelsServicesService) {
@@ -19,8 +23,14 @@ export class CitiesByAliasComponent implements OnInit {
   }
 
   getCitiesByAlias(): void {
-    this.service.getCitiesByAliasService(this.alias).subscribe(cityList => {
-      this.cityList = cityList;
-    });
+    if (this.alias) {
+      this.requestValidity = true;
+      this.service.getCitiesByAliasService(this.alias).subscribe(cityList => {
+        this.cityList = cityList;
+      });
+    } else {
+      this.message = 'Please enter a city name or an alias to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

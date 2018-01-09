@@ -10,6 +10,10 @@ import {SunTravelsServicesService} from '../services/sun-travels-services.servic
 export class HotelsByAliasComponent implements OnInit {
 
   hotelList: HotelModel[];
+
+  requestValidity: boolean;
+  message: string;
+
   alias: string;
 
   constructor(private service: SunTravelsServicesService) {
@@ -19,8 +23,14 @@ export class HotelsByAliasComponent implements OnInit {
   }
 
   getHotelsByAlias(): void {
-    this.service.getHotelsByAliasService(this.alias).subscribe(hotelList => {
-      this.hotelList = hotelList;
-    });
+    if (this.alias) {
+      this.requestValidity = true;
+      this.service.getHotelsByAliasService(this.alias).subscribe(hotelList => {
+        this.hotelList = hotelList;
+      });
+    } else {
+      this.message = 'Please enter a hotel name or an alias to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

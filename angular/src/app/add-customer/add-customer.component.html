@@ -33,6 +33,7 @@
           <td> :</td>
           <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="customer.ssnOrNic" name="cu_identity"></td>
         </tr>
+        <br>
         <tr>
           <td style="text-align: left">
             <input type="submit" class="btn" (click)="addCustomer()" value="Add">
@@ -41,7 +42,8 @@
       </table>
     </form>
   </div>
-  <div id="true" class="insertedCustomer" *ngIf="cu_response.insertingStatus == true"
+
+  <div id="true" class="insertedCustomer" *ngIf="requestValidity == true && cu_response.insertingStatus == true"
        style="text-align: left">
     <h4>Response</h4>
     <table>
@@ -92,9 +94,15 @@
       </tr>
     </table>
   </div>
-  <div id="false" class="insertedCustomer" *ngIf="cu_response.insertingStatus == false" style="text-align: left" ng>
+
+  <div id="false" class="insertedCustomer" *ngIf="requestValidity == true && cu_response.insertingStatus == false" style="text-align: left" ng>
     <h4>Response</h4>
     <table>
+      <tr>
+        <td style="text-align: left">Inserting Status</td>
+        <td> :</td>
+        <td>{{cu_response.insertingStatus}}</td>
+      </tr>
       <tr>
         <td style="text-align: left">Message</td>
         <td> :</td>
@@ -102,6 +110,15 @@
       </tr>
     </table>
   </div>
+
+  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
+    <table>
+      <tr>
+        <td style="text-align:left">{{message}}</td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 
 

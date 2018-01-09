@@ -13,6 +13,9 @@ export class AddRoomTypeComponent implements OnInit {
   rt_response: AddRoomTypeResponseModel;
   roomType: RoomTypeModel;
 
+  requestValidity: boolean;
+  message: string;
+
   roomTypeID: number;
   roomTypeName: string;
 
@@ -25,8 +28,14 @@ export class AddRoomTypeComponent implements OnInit {
   }
 
   addRoomType(): void {
-    this.service.addRoomTypeService(this.roomType).subscribe(response => {
-      this.rt_response = response;
-    });
+    if (this.roomType.roomTypeName) {
+      this.requestValidity = true;
+      this.service.addRoomTypeService(this.roomType).subscribe(response => {
+        this.rt_response = response;
+      });
+    } else {
+      this.message = 'Please enter a room type name to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

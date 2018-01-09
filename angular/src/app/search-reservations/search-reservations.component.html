@@ -3,9 +3,9 @@
     Welcome to Sun Travels !
   </h2>
 </div>
+<h4>Search for available reservations</h4>
 <div id="wrapper">
   <div id="search" class="searchReservations" style="text-align: left">
-    <h4>Search for available reservations</h4>
     <form>
       <table>
         <tr>
@@ -33,6 +33,7 @@
           <td> :</td>
           <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="reservationSearch.requestedMaxAdultsPerRoom" name="s_max_adults"></td>
         </tr>
+        <br>
         <tr>
           <td style="text-align: left">
             <input type="submit" class="btn" (click)="search()" value="Search">
@@ -41,9 +42,14 @@
       </table>
     </form>
   </div>
-  <div id="list" class="reservationsList" style="text-align: left">
+
+  <div id="list" class="reservationsList" *ngIf="requestValidity == true && reservationResults?.length > 0" style="text-align: left">
     <li *ngFor="let result of reservationResults">
       <table>
+        <tr>
+          <td style="text-align: left">Number of available reservations = {{reservationResults?.length}}</td>
+        </tr>
+        <br>
         <tr>
           <td style="text-align:left">Hotel Name</td>
           <td> :</td>
@@ -68,6 +74,23 @@
       <hr>
     </li>
   </div>
+
+  <div id="empty-list" class="emptyReservationsList" *ngIf="requestValidity == true && reservationResults?.length == 0" style="text-align: left">
+    <table>
+      <tr>
+        <td style="text-align:left">Sorry ! No reservations available at the moment</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
+    <table>
+      <tr>
+        <td style="text-align:left">{{message}}</td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 
 

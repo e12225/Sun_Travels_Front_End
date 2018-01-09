@@ -13,6 +13,9 @@ export class SearchReservationsComponent implements OnInit {
   reservationSearch: ReservationSearchModel;
   reservationResults: AvailableReservationModel[];
 
+  requestValidity: boolean;
+  message: string;
+
   checkInDate: Date;
   numberOfNights: number;
   numberOfRooms: number;
@@ -27,9 +30,15 @@ export class SearchReservationsComponent implements OnInit {
   }
 
   search(): void {
-    this.service.getAvailableReservationsService(this.reservationSearch).subscribe(reservationList => {
-      this.reservationResults = reservationList;
-    });
+    if (this.reservationSearch.checkInDate && this.reservationSearch.numberOfNights && this.reservationSearch.numberOfRooms && this.reservationSearch.totalAdults && this.reservationSearch.requestedMaxAdultsPerRoom) {
+      this.requestValidity = true;
+      this.service.getAvailableReservationsService(this.reservationSearch).subscribe(reservationList => {
+        this.reservationResults = reservationList;
+      });
+    } else {
+      this.message = 'Please enter the missing information to proceed !';
+      this.requestValidity = false;
+    }
   }
 }
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CountryModel} from '../models/country.model';
 import {SunTravelsServicesService} from '../services/sun-travels-services.service';
 
@@ -10,16 +10,27 @@ import {SunTravelsServicesService} from '../services/sun-travels-services.servic
 export class CountriesByAliasComponent implements OnInit {
 
   countryList: CountryModel[];
+
+  requestValidity: boolean;
+  message: string;
+
   alias: string;
 
-  constructor(private service: SunTravelsServicesService) { }
+  constructor(private service: SunTravelsServicesService) {
+  }
 
   ngOnInit() {
   }
 
   getCountriesByAlias(): void {
-    this.service.getCountriesByAliasService(this.alias).subscribe(coList => {
-      this.countryList = coList;
-    });
+    if (this.alias) {
+      this.requestValidity = true;
+      this.service.getCountriesByAliasService(this.alias).subscribe(coList => {
+        this.countryList = coList;
+      });
+    } else {
+      this.message = 'Please enter a country name or an alias to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

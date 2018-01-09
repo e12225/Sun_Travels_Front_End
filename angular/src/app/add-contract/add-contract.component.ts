@@ -14,6 +14,9 @@ export class AddContractComponent implements OnInit {
   c_response: AddContractResponseModel;
   contract: ContractModel;
 
+  requestValidity: boolean;
+  message: string;
+
   contractID: number;
   hotelName: string;
   hotelPhoneNumber: number;
@@ -27,8 +30,14 @@ export class AddContractComponent implements OnInit {
   }
 
   addContract(): void {
-    this.service.addContractService(this.contract).subscribe(response => {
-      this.c_response = response;
-    });
+    if (this.contract.hotelName && this.contract.hotelPhoneNumber) {
+      this.requestValidity = true;
+      this.service.addContractService(this.contract).subscribe(response => {
+        this.c_response = response;
+      });
+    } else {
+      this.message = 'Please enter the missing information to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

@@ -13,6 +13,9 @@ export class AddCustomerComponent implements OnInit {
   cu_response: AddCustomerResponseModel;
   customer: CustomerModel;
 
+  requestValidity: boolean;
+  message: string;
+
   customerID: number;
   firstName: string;
   lastName: string;
@@ -30,8 +33,14 @@ export class AddCustomerComponent implements OnInit {
   }
 
   addCustomer(): void {
-    this.service.addCustomerService(this.customer).subscribe(response => {
-      this.cu_response = response;
-    });
+    if (this.customer.customerFirstName && this.customer.customerLastName && this.customer.customerPhoneNumber && this.customer.countryName && this.customer.cityName && this.customer.ssnOrNic) {
+      this.requestValidity = true;
+      this.service.addCustomerService(this.customer).subscribe(response => {
+        this.cu_response = response;
+      });
+    } else {
+      this.message = 'Please enter the missing information to proceed !';
+      this.requestValidity = false;
+    }
   }
 }

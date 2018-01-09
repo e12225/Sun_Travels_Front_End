@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {SunTravelsServicesService} from '../services/sun-travels-services.service';
 import {CtrDetailsByHtNameResponseModel} from '../models/ctr-details-by-ht-name-response.model';
 
@@ -10,17 +10,27 @@ import {CtrDetailsByHtNameResponseModel} from '../models/ctr-details-by-ht-name-
 export class ContractDetailsSearchComponent implements OnInit {
 
   contractDetailsList: CtrDetailsByHtNameResponseModel[];
+
+  requestValidity: boolean;
+  message: string;
+
   hotelName: string;
 
-  constructor(private service: SunTravelsServicesService) { }
+  constructor(private service: SunTravelsServicesService) {
+  }
 
   ngOnInit() {
   }
 
   getContractDetailsByHotelName(): void {
-    this.service.getContractDetailsByHotelNameService(this.hotelName).subscribe(ctrDList => {
-      this.contractDetailsList = ctrDList;
-    });
+    if (this.hotelName) {
+      this.requestValidity = true;
+      this.service.getContractDetailsByHotelNameService(this.hotelName).subscribe(ctrDList => {
+        this.contractDetailsList = ctrDList;
+      });
+    }else {
+      this.message = 'Please enter a hotel name or an alias to proceed !';
+      this.requestValidity = false;
+    }
   }
-
 }

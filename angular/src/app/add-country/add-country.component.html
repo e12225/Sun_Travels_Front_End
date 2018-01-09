@@ -8,6 +8,7 @@
           <td> :</td>
           <td style="text-align:left"><input type="text" class="txt" [(ngModel)]="country.countryName" name="co_name"></td>
         </tr>
+        <br>
         <tr>
           <td style="text-align: left">
             <input type="submit" class="btn" (click)="addCountry()" value="Add">
@@ -16,7 +17,8 @@
       </table>
     </form>
   </div>
-  <div id="true" class="insertedCountry" *ngIf="co_response.insertingStatus == true"
+
+  <div id="true" class="insertedCountry" *ngIf="requestValidity == true && co_response.insertingStatus == true"
        style="text-align: left">
     <h4>Response</h4>
     <table>
@@ -42,9 +44,15 @@
       </tr>
     </table>
   </div>
-  <div id="false" class="insertedCountry" *ngIf="co_response.insertingStatus == false" style="text-align: left" ng>
+
+  <div id="false" class="insertedCountry" *ngIf="requestValidity == true && co_response.insertingStatus == false" style="text-align: left" ng>
     <h4>Response</h4>
     <table>
+      <tr>
+        <td style="text-align: left">Inserting Status</td>
+        <td> :</td>
+        <td>{{co_response.insertingStatus}}</td>
+      </tr>
       <tr>
         <td style="text-align: left">Message</td>
         <td> :</td>
@@ -52,6 +60,15 @@
       </tr>
     </table>
   </div>
+
+  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
+    <table>
+      <tr>
+        <td style="text-align:left">{{message}}</td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 
 

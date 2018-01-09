@@ -1,59 +1,60 @@
 <body id="body">
-  <div id = "rootDiv" style="text-align: left" [ngStyle]="{'font-size': '25px'}">
-    <h1 id="title">{{title}}</h1>
-    <ul>
-      <li><a class="active" routerLink="/searchReservations">Home</a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Contracts</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewContract">Add New Contract</a>
-          <a routerLink="/contractList">View Contract List</a>
-          <a routerLink="/addContractDetails">Add Contract Details</a>
-          <a routerLink="/contractDetailsList">View Contract Details List</a>
-          <a routerLink="/searchContractDetails">Search Contract Details</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Hotels</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewHotel">Add New Hotel</a>
-          <a routerLink="/hotelList">View Hotel List</a>
-          <a routerLink="/hotelsByAlias">Search Hotels</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Room Types</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewRoomType">Add New Room Type</a>
-          <a routerLink="/roomTypeList">View Room Type List</a>
-          <a routerLink="/roomTypeByNameOrAlias">Search Room Types</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Countries</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewCountry">Add New Country</a>
-          <a routerLink="/countryList">View Country List</a>
-          <a routerLink="/countriesByNameOrAlias">Search Countries</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Cities</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewCity">Add New City</a>
-          <a routerLink="/cityList">View City List</a>
-          <a routerLink="/citiesByNameOrAlias">Search Cities</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Customers</a>
-        <div class="dropdown-content">
-          <a routerLink="/addNewCustomer">Add New Customer</a>
-          <a routerLink="/customerList">View Customer List</a>
-          <a routerLink="/searchCustomers">Search Customers</a>
-        </div>
-      </li>
-    </ul>
-    <router-outlet></router-outlet>
-  </div>
+<div id="rootDiv" style="text-align: left" [ngStyle]="{'font-size': '25px'}">
+  <h1 id="title">{{title}}</h1>
+  <ul>
+    <li><a class="active" routerLink="/searchReservations">Search Reservations</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Contracts</a>
+      <div class="dropdown-content">
+        <a routerLink="/addNewContract">Add New Contract</a>
+        <a routerLink="/contractList">View Contract List</a>
+        <a routerLink="/addContractDetails">Add Contract Details</a>
+        <a routerLink="/contractDetailsList">View Contract Details List</a>
+        <a routerLink="/searchContractDetails">Search Contract Details</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Hotels</a>
+      <div class="dropdown-content">
+        <a routerLink="/addNewHotel">Add New Hotel</a>
+        <a routerLink="/hotelList">View Hotel List</a>
+        <a routerLink="/hotelsByAlias">Search Hotels</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Room Types</a>
+      <div class="dropdown-content">
+        <a routerLink="/addNewRoomType">Add New Room Type</a>
+        <a routerLink="/roomTypeList">View Room Type List</a>
+        <a routerLink="/roomTypeByNameOrAlias">Search Room Types</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Countries</a>
+      <div class="dropdown-content">
+        <a routerLink="/addNewCountry">Add New Country</a>
+        <a routerLink="/countryList">View Country List</a>
+        <a routerLink="/countriesByNameOrAlias">Search Countries</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Cities</a>
+      <div class="dropdown-content">
+        <a routerLink="/addNewCity">Add New City</a>
+        <a routerLink="/cityList">View City List</a>
+        <a routerLink="/citiesByNameOrAlias">Search Cities</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Customers</a>
+      <div class="dropdown-content">
+        <a routerLink="/addNewCustomer">Add New Customer</a>
+        <a routerLink="/customerList">View Customer List</a>
+        <a routerLink="/searchCustomers">Search Customers</a>
+      </div>
+    </li>
+  </ul>
+  <alert></alert>
+  <router-outlet></router-outlet>
+</div>
 </body>
