@@ -1,4 +1,4 @@
-<div id = "home" class="home">
+<div id="home" class="home">
   <h2 id="heading">
     Welcome to Sun Travels !
   </h2>
@@ -74,23 +74,6 @@
       <hr>
     </li>
   </div>
-
-  <div id="empty-list" class="emptyReservationsList" *ngIf="requestValidity == true && reservationResults?.length == 0" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">Sorry ! No reservations available at the moment</td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">{{message}}</td>
-      </tr>
-    </table>
-  </div>
-
 </div>
 
 

@@ -58,33 +58,14 @@
         <hr>
       </li>
     </div>
-
-    <div id="empty-list" class="emptyCustomerList" *ngIf="request_1_Validity == true && customerList?.length == 0"
-         style="text-align: left">
-      <table>
-        <tr>
-          <td style="text-align:left">No matching customers exist for the given name</td>
-        </tr>
-      </table>
-    </div>
-
-    <div id="missing-values" class="error" *ngIf="request_1_Validity == false" style="text-align: left">
-      <table>
-        <tr>
-          <td style="text-align:left">{{message_1}}</td>
-        </tr>
-      </table>
-    </div>
-
   </div>
-
   <div id="search2">
     <h4>Search Customers By Identity</h4>
     <form>
       <table>
         <tr>
           <td style="text-align: left">
-            <input type="text" class="txt" placeholder="Identity" [(ngModel)]="identity" name="identity">
+            <input type="text" class="txt" placeholder="Identity.." [(ngModel)]="identity" name="identity">
           </td>
           <td style="text-align: left">
             <input type="submit" class="btn" (click)="getCustomerByIdentity()" value="Search">
@@ -132,24 +113,5 @@
         </tr>
       </table>
     </div>
-
-    <div id="not-found" class="emptyCustomer" *ngIf="request_2_Validity == true && customer?.valueOf() == null"
-         style="text-align: left">
-      <table>
-        <tr>
-          <td style="text-align:left">No matching customer exists for the given identity</td>
-        </tr>
-      </table>
-    </div>
-
-    <div id="missing-values_" class="error" *ngIf="request_2_Validity == false" style="text-align: left">
-      <table>
-        <tr>
-          <td style="text-align:left">{{message_2}}</td>
-        </tr>
-      </table>
-    </div>
-
   </div>
-
 </div>

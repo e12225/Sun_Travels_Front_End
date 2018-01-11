@@ -26,11 +26,17 @@ export class CitiesByAliasComponent implements OnInit {
     if (this.alias) {
       this.requestValidity = true;
       this.service.getCitiesByAliasService(this.alias).subscribe(cityList => {
+
+        if(cityList.length == 0){
+          this.message = 'No matching cities exist for the given name or alias';
+          alert(this.message);
+        }
         this.cityList = cityList;
       });
     } else {
       this.message = 'Please enter a city name or an alias to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

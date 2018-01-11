@@ -26,11 +26,17 @@ export class CountriesByAliasComponent implements OnInit {
     if (this.alias) {
       this.requestValidity = true;
       this.service.getCountriesByAliasService(this.alias).subscribe(coList => {
+
+        if(coList.length == 0){
+          this.message = 'No matching countries exist for the given name or alias';
+          alert(this.message);
+        }
         this.countryList = coList;
       });
     } else {
       this.message = 'Please enter a country name or an alias to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

@@ -37,10 +37,13 @@ export class AddCustomerComponent implements OnInit {
       this.requestValidity = true;
       this.service.addCustomerService(this.customer).subscribe(response => {
         this.cu_response = response;
+        this.message = response.message;
+        alert(this.message);
       });
     } else {
       this.message = 'Please enter the missing information to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

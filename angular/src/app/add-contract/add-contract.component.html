@@ -24,14 +24,9 @@
   </div>
 
   <div id="true" class="insertedContract" *ngIf="requestValidity == true && c_response.insertingStatus == true" style="text-align: left">
-    <h4>Response</h4>
+    <h4>Inserted Basic Contract Details</h4>
     <h4>Use the following Contract ID, when inserting contract details for it</h4>
     <table>
-      <tr>
-        <td style="text-align: left">Inserting Status</td>
-        <td> :</td>
-        <td>{{c_response.insertingStatus}}</td>
-      </tr>
       <tr>
         <td style="text-align: left">Contract ID</td>
         <td> :</td>
@@ -41,35 +36,6 @@
         <td style="text-align: left">Hotel ID</td>
         <td> :</td>
         <td>{{c_response.entity.hotelID}}</td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Message</td>
-        <td> :</td>
-        <td>{{c_response.message}}</td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="false" class="insertedContract" *ngIf="requestValidity == true && c_response.insertingStatus == false" style="text-align: left">
-    <h4>Response</h4>
-    <table>
-      <tr>
-        <td style="text-align: left">Inserting Status</td>
-        <td> :</td>
-        <td>{{c_response.insertingStatus}}</td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Message</td>
-        <td> :</td>
-        <td>{{c_response.message}}</td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">{{message}}</td>
       </tr>
     </table>
   </div>

@@ -10,15 +10,6 @@
   width:1000px;
   float:left;
 }
-#false {
-  width:1000px;
-  float:left;
-}
-#missing-values {
-  margin-top: 45px;
-  width:550px;
-  float:left;
-}
 
 .btn {
   background-color: darkorange;
@@ -34,4 +25,14 @@
   font-style: bold;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.txt {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }

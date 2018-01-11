@@ -26,12 +26,17 @@ export class RoomTypesByAliasComponent implements OnInit {
     if (this.alias) {
       this.requestValidity = true;
       this.service.getRoomTypesByAliasService(this.alias).subscribe(rtList => {
+
+        if(rtList.length == 0){
+          this.message = 'No matching room types exist for the given name or alias';
+          alert(this.message);
+        }
         this.roomTypeList = rtList;
       });
     } else {
       this.message = 'Please enter a room type name or an alias to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
-
   }
 }

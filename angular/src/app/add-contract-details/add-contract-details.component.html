@@ -36,6 +36,7 @@
         <tr>
           <td style="text-align:left">Maximum Adults per Room</td>
           <td> :</td>
+
           <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.maxAdults"
                                              name="cd_adults"></td>
         </tr>
@@ -43,7 +44,8 @@
           <td style="text-align:left">Price</td>
           <td> :</td>
           <td style="text-align:left"><input type="number" class="txt" [(ngModel)]="contractDetails.price"
-                                             name="cd_price"> USD</td>
+                                             name="cd_price"></td>
+          <td>USD</td>
         </tr>
         <br>
         <tr>
@@ -57,13 +59,8 @@
 
   <div id="true" class="insertedContractDetails" *ngIf="requestValidity == true && cd_response.insertingStatus == true"
        style="text-align: left">
-    <h4>Response</h4>
+    <h4>Inserted Contract Details</h4>
     <table>
-      <tr>
-        <td style="text-align: left">Inserting Status</td>
-        <td> :</td>
-        <td>{{cd_response.insertingStatus}}</td>
-      </tr>
       <tr>
         <td style="text-align: left">Contract Details ID</td>
         <td> :</td>
@@ -103,36 +100,6 @@
         <td style="text-align: left">Price</td>
         <td> :</td>
         <td>{{cd_response.entity.price}} USD</td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Message</td>
-        <td> :</td>
-        <td>{{cd_response.message}}</td>
-      </tr>
-    </table>
-  </div>
-
-
-  <div id="false" class="insertedContractDetails" *ngIf="requestValidity == true && cd_response.insertingStatus == false" style="text-align: left" ng>
-    <h4>Response</h4>
-    <table>
-      <tr>
-        <td style="text-align: left">Inserting Status</td>
-        <td> :</td>
-        <td>{{cd_response.insertingStatus}}</td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Message</td>
-        <td> :</td>
-        <td>{{cd_response.message}}</td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">{{message}}</td>
       </tr>
     </table>
   </div>

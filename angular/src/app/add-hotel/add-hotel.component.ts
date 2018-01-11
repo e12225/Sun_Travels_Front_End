@@ -36,10 +36,13 @@ export class AddHotelComponent implements OnInit {
       this.requestValidity = true;
       this.service.addHotelService(this.hotel).subscribe(response => {
         this.h_response = response;
+        this.message = response.message;
+        alert(this.message);
       });
     } else {
       this.message = 'Please enter the missing information to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

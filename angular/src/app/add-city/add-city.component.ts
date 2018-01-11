@@ -33,10 +33,13 @@ export class AddCityComponent implements OnInit {
       this.requestValidity = true;
       this.service.addCityService(this.city).subscribe(response => {
         this.ci_response = response;
+        this.message = response.message;
+        alert(this.message);
       });
     } else {
       this.message = 'Please enter the missing information to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import {SunTravelsServicesService} from '../services/sun-travels-services.service';
-import {AvailableReservationModel} from '../models/available-reservation.model';
-import {ReservationSearchModel} from '../models/reservation-search.model';
+import{Component, OnInit}from '@angular/core';
+import {SunTravelsServicesService}from '../services/sun-travels-services.service';
+import {AvailableReservationModel}from '../models/available-reservation.model';
+import {ReservationSearchModel}from '../models/reservation-search.model';
 
 @Component({
   selector: 'app-search',
@@ -33,11 +33,17 @@ export class SearchReservationsComponent implements OnInit {
     if (this.reservationSearch.checkInDate && this.reservationSearch.numberOfNights && this.reservationSearch.numberOfRooms && this.reservationSearch.totalAdults && this.reservationSearch.requestedMaxAdultsPerRoom) {
       this.requestValidity = true;
       this.service.getAvailableReservationsService(this.reservationSearch).subscribe(reservationList => {
+
+        if(reservationList.length == 0){
+          this.message = 'Sorry ! No reservations are available at the moment';
+          alert(this.message);
+        }
         this.reservationResults = reservationList;
       });
     } else {
       this.message = 'Please enter the missing information to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

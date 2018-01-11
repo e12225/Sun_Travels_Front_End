@@ -32,10 +32,13 @@ export class AddRoomTypeComponent implements OnInit {
       this.requestValidity = true;
       this.service.addRoomTypeService(this.roomType).subscribe(response => {
         this.rt_response = response;
+        this.message = response.message;
+        alert(this.message);
       });
     } else {
       this.message = 'Please enter a room type name to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

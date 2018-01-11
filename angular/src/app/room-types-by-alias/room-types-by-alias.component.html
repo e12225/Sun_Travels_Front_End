@@ -33,22 +33,5 @@
       <hr>
     </li>
   </div>
-
-  <div id="empty-list" class="emptyRoomTypeList" *ngIf="requestValidity == true && roomTypeList?.length == 0" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">No matching room types exist for the given name</td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">{{message}}</td>
-      </tr>
-    </table>
-  </div>
-
 </div>
 

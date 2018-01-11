@@ -26,11 +26,17 @@ export class ContractDetailsSearchComponent implements OnInit {
     if (this.hotelName) {
       this.requestValidity = true;
       this.service.getContractDetailsByHotelNameService(this.hotelName).subscribe(ctrDList => {
+
+        if(ctrDList.length == 0){
+          this.message = 'No contract details exist under the given hotel name or alias';
+          alert(this.message);
+        }
         this.contractDetailsList = ctrDList;
       });
     }else {
       this.message = 'Please enter a hotel name or an alias to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

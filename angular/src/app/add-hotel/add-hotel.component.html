@@ -37,13 +37,8 @@
 
   <div id="true" class="insertedHotel" *ngIf="requestValidity == true && h_response.insertingStatus == true"
        style="text-align: left">
-    <h4>Response</h4>
+    <h4>Inserted Hotel Details</h4>
     <table>
-      <tr>
-        <td style="text-align: left">Inserting Status</td>
-        <td> :</td>
-        <td>{{h_response.insertingStatus}}</td>
-      </tr>
       <tr>
         <td style="text-align: left">Hotel ID</td>
         <td> :</td>
@@ -69,37 +64,7 @@
         <td> :</td>
         <td>{{h_response.entity.cityID}}</td>
       </tr>
-      <tr>
-        <td style="text-align: left">Message</td>
-        <td> :</td>
-        <td>{{h_response.message}}</td>
-      </tr>
     </table>
   </div>
-
-  <div id="false" class="insertedHotel" *ngIf="requestValidity == true && h_response.insertingStatus == false" style="text-align: left" ng>
-    <h4>Response</h4>
-    <table>
-      <tr>
-        <td style="text-align: left">Inserting Status</td>
-        <td> :</td>
-        <td>{{h_response.insertingStatus}}</td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Message</td>
-        <td> :</td>
-        <td>{{h_response.message}}</td>
-      </tr>
-    </table>
-  </div>
-
-  <div id="missing-values" class="error" *ngIf="requestValidity == false" style="text-align: left">
-    <table>
-      <tr>
-        <td style="text-align:left">{{message}}</td>
-      </tr>
-    </table>
-  </div>
-
 </div>
 

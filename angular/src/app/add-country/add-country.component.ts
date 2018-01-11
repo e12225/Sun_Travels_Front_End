@@ -32,10 +32,13 @@ export class AddCountryComponent implements OnInit {
       this.requestValidity = true;
       this.service.addCountryService(this.country).subscribe(response => {
         this.co_response = response;
+        this.message = response.message;
+        alert(this.message);
       });
     } else {
       this.message = 'Please enter a country name to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }

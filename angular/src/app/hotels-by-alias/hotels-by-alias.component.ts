@@ -26,11 +26,17 @@ export class HotelsByAliasComponent implements OnInit {
     if (this.alias) {
       this.requestValidity = true;
       this.service.getHotelsByAliasService(this.alias).subscribe(hotelList => {
+
+        if(hotelList.length == 0){
+          this.message = 'No matching hotels exist for the given name or alias';
+          alert(this.message);
+        }
         this.hotelList = hotelList;
       });
     } else {
       this.message = 'Please enter a hotel name or an alias to proceed !';
       this.requestValidity = false;
+      alert(this.message);
     }
   }
 }
